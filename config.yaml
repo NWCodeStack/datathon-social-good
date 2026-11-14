@@ -1,0 +1,59 @@
+# Single source of truth for paths, seeds, split and task definition.
+# Shared file: changes go through the Integrator (Person 4).
+
+seed: 42
+
+paths:
+  raw: data/raw            # READ-ONLY. Override with env DATATHON_RAW_DIR.
+  interim: data/interim
+  processed: data/processed
+  tables: outputs/tables
+  figures: outputs/figures
+  models: outputs/models
+  hand_checks: docs/hand_checks
+
+# ⚠️ TODO(team): pick ONE geographic unit for all geo joins: zip | tract | city | none
+geography_unit: zip
+
+# Cleaners to run in `run.py data`. Each name maps to src/data/clean_<name>.py,
+# which must define `clean(raw_dir, interim_dir) -> Path` and a SCHEMA in src/data/schemas.py.
+# ⚠️ TODO(team): e.g. [places, reviews]
+datasets: []
+
+# Feature builder: module in src/features/ exposing `build(cfg) -> pd.DataFrame` (the master table).
+# Use src.features.joins.audited_merge for every join so 02_join_audit.csv is filled.
+features:
+  builder: build_features
+  master_table: data/processed/master.parquet
+
+task:
+  type: classification       # classification | regression
+  id_col: id
+  target_col: target
+  positive_label: null       # binary only: label treated as positive for AUC
+  feature_cols: null         # null = all numeric columns except id/target/group/excluded
+  categorical_cols: []       # one-hot encoded
+  exclude_cols: []           # never used as features (e.g. leaky columns, raw text)
+  subgroup_cols: []          # ⚠️ ≥3 meaningful groups needed for Advanced (e.g. city, place_type)
+  display_cols: []           # extra context columns copied into 05_failure_examples.csv
+  small_n: 30                # subgroups smaller than this get a caution flag
+
+split:
+  test_size: 0.2
+  val_size: 0.2              # fraction of the whole dataset
+  group_col: null            # set to e.g. place_id / company / subreddit to group-split (no leakage)
+  stratify: true             # classification only; ignored when group_col is set
+
+model:
+  name: hist_gb              # hist_gb | random_forest | logistic | ridge
+  params: {}
+
+baselines: [dummy, linear]   # dummy = majority class / mean; linear = logistic / linear regression
+
+# Flip to true ONCE, in the final ~6 hours, after features are frozen (or run `run.py final`).
+# Until then the test split is never predicted and 03_model_vs_baseline.csv shows test = LOCKED.
+final_eval: false
+
+failure_examples:
+  per_group: 10
+  max_groups_per_subgroup: 5
