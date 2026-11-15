@@ -22,36 +22,27 @@ These results compare advertised pay with typical housing costs. They do not mea
 
 ---
 
-## Rent affordability by occupation
+## Average rent burden by occupation
 
-This table includes job/ZIP combinations with at least **10 usable
-salary postings** and housing **not flagged as low data**.
+This table includes job/ZIP combinations with at least **10 usable salaries per job/city** and housing **not flagged as low data**.
 
-| Occupation | ZIPs with usable rent estimates | Median rent burden |
+| Occupation | ZIPs analyzed | Average rent burden |
 |---|---:|---:|
-| Software engineer | 107 | 22.5% |
-| Registered nurse | 72 | 33.9% |
-| Electrician | 25 | 46.6% |
-| Accountant | 63 | 50.4% |
-| Medical assistant | 50 | 84.8% |
-| Warehouse worker | 61 | 94.6% |
-| Retail sales | 91 | 100.1% |
-| Food service worker | 75 | 103.9% |
-| Cashier | 54 | 107.8% |
-| **All included job/ZIP combinations** | **598 combinations** | — |
+| Software engineer | 107 | 22.8% |
+| Registered nurse | 72 | 33.8% |
+| Electrician | 25 | 47.7% |
+| Accountant | 63 | 50.5% |
+| Medical assistant | 50 | 85.8% |
+| Warehouse worker | 61 | 99.5% |
+| Retail sales | 91 | 102.6% |
+| Food service worker | 75 | 106.3% |
+| Cashier | 54 | 110.3% |
 
-**How to read:** The median rent burden is the middle value across
-the included ZIPs for each occupation. For example, the cashier
-median of 107.8% means typical annual rent exceeds estimated gross
-annual pay at the middle of the covered cashier ZIP estimates.
+Each value averages ZIP-level rent burdens, comparing typical whole-home rent with one worker’s gross annual pay. Each ZIP receives equal weight; occupations cover different sets of ZIPs. City-level wages are reused across ZIPs.
 
-Childcare workers, home health aides, and K–12 teachers are omitted
-because no job/ZIP combinations met both data-quality thresholds
-with usable rent estimates.
+Childcare workers, home health aides, and K–12 teachers are omitted because no job/ZIP combinations met both data-quality thresholds with usable rent estimates.
 
-These are ZIP-level comparisons, not worker-weighted statistics.
-City-level wages are reused across ZIPs, and each included ZIP
-receives equal weight within its occupation.
+These are averages within occupations. The **73.6% overall median** is a separate statistic across all 598 included job/ZIP combinations.
 
 ---
 
@@ -72,7 +63,7 @@ receives equal weight within its occupation.
 | 11. Project pay | Applied historical average wage growth to current Indeed median pay. |
 | 12. Join housing | Joined ZIP-level housing estimates to city-level wages using normalized city names. |
 | 13. Calculate affordability | Calculated rent burden and ownership gap for available job/ZIP combinations. |
-| 14. Create a figure | Plotted high rent-burden examples meeting salary and housing data-quality thresholds. |
+| 14. Create a figure | Plotted average rent burden across covered ZIPs for each occupation meeting salary and housing data-quality thresholds. |
 
 The full-file job filter produced **15,223 postings after deduplication**. The initial Bay Area filter retained **6,162**. Manual-review exclusion rules reduced this to **6,019**, before narrowing the teacher category to K–12.
 
@@ -176,7 +167,7 @@ The calculation uses a **7.11% annual interest rate**, reported by the participa
 | `outputs/wages_by_job_city.csv` | Current pay, posting counts, missing-pay share, growth, projections, and quality flags |
 | `outputs/burden_by_job_zip.csv` | Required rent-burden and ownership-gap measures by job and ZIP |
 | `outputs/burden_by_job_zip_details.csv` | Supporting housing, salary, mortgage calculations, and quality flags |
-| `outputs/figures/wages_rent_burden.png` | Rent-burden figure using estimates meeting data-quality thresholds |
+| `outputs/figures/average_rent_burden_by_job.svg` | Average rent burden by occupation, using estimates meeting data-quality thresholds |
 | `notebooks/wages_and_affordability.ipynb` | Cleaning, wage-growth, housing-affordability, and export workflow |
 
 ### Wage and burden columns
@@ -197,21 +188,24 @@ The calculation uses a **7.11% annual interest rate**, reported by the participa
 | `thin_data` | Fewer than 10 postings |
 | `thin_pay_data` | Fewer than 10 usable salaries |
 
-### Rent burden figure
+### Average rent burden by occupation figure
 
-![Rent burden by job and city](../outputs/figures/wages_rent_burden.png)
+![Average rent burden across covered ZIPs, by occupation](../outputs/figures/average_rent_burden_by_job.svg)
 
-The figure shows the **10 highest rent-burden examples** among job/city estimates with at least **10 usable salaries** and housing not flagged as low data. Each job/city appears once, using its highest-burden ZIP.
+The figure shows **average rent burden across covered ZIPs for nine occupations**. It includes at least **10 usable salaries per job/city** and housing not flagged as low data. K–12 teachers, home health aides, and childcare workers have no usable rent estimates meeting these thresholds and are omitted.
 
 | Element | How to read it |
 |---|---|
-| Horizontal bars | Typical annual rent as a percentage of one worker’s gross annual pay |
+| Horizontal bars | Average ZIP-level annual rent burden for each occupation |
+| Bar labels | Average percentage and number of covered ZIPs |
 | Dashed line | 30% reference |
-| Values above 100% | Typical annual rent exceeds the estimated annual salary |
+| Values above 100% | Average rent burden exceeds one worker’s gross annual pay |
 
-The figure compares typical whole-home rent with one worker’s salary. It does not measure actual household spending or account for roommates, multiple earners, taxes, or differences in housing size.
+Each ZIP receives equal weight. The averages range from **22.8% for software engineers** to **110.3% for cashiers**.
 
-The figure selects high-burden examples; it does not show the full distribution of Bay Area affordability.
+The figure compares typical whole-home rent with one worker’s gross annual pay. It does not measure actual household spending or account for roommates, multiple earners, taxes, or differences in housing size. City-level wages are reused across ZIPs.
+
+Occupations cover different sets of ZIPs, so differences reflect both pay and geographic coverage. This figure summarizes averages rather than selecting the highest-burden examples.
 
 ---
 
