@@ -1,13 +1,10 @@
-# Priced Out: Bay Area rent spikes and where renters can go
+# Priced Out: predicting Bay Area rent spikes
 
 8th Annual Datathon for Social Good
 
 Bay Area rent keeps climbing, and low-income renters can't see the next hike coming. We combine housing
-costs, wages, and access to everyday services for 293 Bay Area zip codes, then use two models:
-
-- **Model 1** predicts which areas are likely to see a rent spike.
-- **Model 2** takes a renter's needs (budget, workplace, services they rely on) together with Model 1's
-  predictions and suggests alternative places to rent.
+costs, wages, and access to everyday services for 293 Bay Area zip codes, and train a model that
+predicts which zip codes are likely to see a rent spike.
 
 ## What's in this repo
 
@@ -55,7 +52,8 @@ The test set is never used for training or tuning: it is predicted only by `run.
 
 ## Ethics
 
-Results are reported at zip-code level only, never for individual addresses or listings. Spike
-predictions could be misused by landlords, and neighborhood recommendations could steer people, so
-renters set every preference in Model 2. Areas with thin data are shown as having no data rather than
-estimated. Each write-up lists its own known biases.
+Results are reported at zip-code level only, never for individual addresses or listings. Large
+landlords already price with commercial software, so the larger risk is that a public list of likely
+spikes draws investors, and wrong predictions either leave renters unprepared or stigmatize a
+neighborhood. Areas with thin data are shown as having no data rather than estimated. Each write-up
+lists its own known biases.
