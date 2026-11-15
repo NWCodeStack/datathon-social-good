@@ -16,7 +16,7 @@ costs, wages, and access to everyday services for 293 Bay Area zip codes, then u
 | `datathon/anna_upload/` | Access to essential services: distance from homes to groceries, pharmacies, doctors, banks, transit and food banks; access score per zip | [anna_essential_services.md](datathon/anna_upload/docs/anna_essential_services.md) |
 | `housing_costs/` | Housing costs per zip: typical rent and home value, change since 2019, income needed for rent | [albert_housing_costs.md](housing_costs/docs/albert_housing_costs.md) |
 | `tim_upload/` | Wages and housing affordability: advertised pay by job and city compared with local rent | [wages_and_affordability.md](tim_upload/docs/wages_and_affordability.md) |
-| `rent-vs-reach-map/` | Interactive map of rent, jobs, opinions and access by zip (`index.html`; data built by `scripts/build_data.py`) | |
+| `rent-vs-reach-map/` | Interactive map of rent, jobs, service reviews and access by zip (`index.html`; data built by `scripts/build_data.py`) | |
 | `src/`, `run.py`, `tests/` | One-command modeling pipeline: cleaning, logged joins, a seeded train/validation/test split, models scored next to baselines, subgroup and failure analysis | |
 
 Each write-up documents its data sources, cleaning steps, joins, hand checks and known biases.
