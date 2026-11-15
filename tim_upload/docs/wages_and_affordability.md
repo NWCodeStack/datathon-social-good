@@ -24,25 +24,7 @@ These results compare advertised pay with typical housing costs. They do not mea
 
 ## Average rent burden by occupation
 
-This table includes job/ZIP combinations with at least **10 usable salaries per job/city** and housing **not flagged as low data**.
-
-| Occupation | ZIPs analyzed | Average rent burden |
-|---|---:|---:|
-| Software engineer | 107 | 22.8% |
-| Registered nurse | 72 | 33.8% |
-| Electrician | 25 | 47.7% |
-| Accountant | 63 | 50.5% |
-| Medical assistant | 50 | 85.8% |
-| Warehouse worker | 61 | 99.5% |
-| Retail sales | 91 | 102.6% |
-| Food service worker | 75 | 106.3% |
-| Cashier | 54 | 110.3% |
-
-Each value averages ZIP-level rent burdens, comparing typical whole-home rent with one worker’s gross annual pay. Each ZIP receives equal weight; occupations cover different sets of ZIPs. City-level wages are reused across ZIPs.
-
-Childcare workers, home health aides, and K–12 teachers are omitted because no job/ZIP combinations met both data-quality thresholds with usable rent estimates.
-
-These are averages within occupations. The **73.6% overall median** is a separate statistic across all 598 included job/ZIP combinations.
+Average rent burden ranges from **22.8% for software engineers to 110.3% for cashiers** across covered ZIPs. **Eight of the nine occupations exceed the 30% reference.** See the [figure below](#average-rent-burden-by-occupation-figure) for the comparison and methods.
 
 ---
 
