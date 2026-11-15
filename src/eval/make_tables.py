@@ -1,8 +1,8 @@
 """Step `tables`: assemble 06_hand_check_sample.csv and 07_key_findings.csv.
 
-06 reads every docs/hand_checks/*.csv with columns:
+06 reads every hand_checks/*.csv with columns:
     item_id, auto_value, checked_value, checker      (one row per hand-checked item)
-07 derives every finding from the other tables — no hand-typed numbers (CLAUDE.md §7).
+07 derives every finding from the other tables — no hand-typed numbers.
 """
 from __future__ import annotations
 
@@ -25,7 +25,7 @@ def hand_check_table(cfg: dict) -> pd.DataFrame:
         rows.append({"check": f.stem, "sample_size": len(d), "agreement_pct": round(100 * agree.mean(), 1),
                      "n_disagree": int((~agree).sum()),
                      "checkers": ";".join(sorted(d["checker"].dropna().unique())),
-                     "source_file": f"docs/hand_checks/{f.name}"})
+                     "source_file": f"hand_checks/{f.name}"})
     return pd.DataFrame(rows, columns=["check", "sample_size", "agreement_pct", "n_disagree", "checkers",
                                        "source_file"])
 

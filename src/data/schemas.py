@@ -1,8 +1,8 @@
 """Data contract: expected schema of every data/interim/<name>.parquet.
 
-Owned by the Integrator. Each cleaner's output must match its SCHEMA here (tests/test_schemas.py).
+Each cleaner's output must match its SCHEMA here (tests/test_schemas.py).
 dtype strings are pandas dtype *kinds*: "int", "float", "string", "bool", "datetime", "category".
-Mirror every entry in docs/data_decisions.md (name, dtype, meaning, null handling).
+Document every entry in the dataset's write-up (name, dtype, meaning, null handling).
 
 Example (adapt once datasets are chosen):
 
