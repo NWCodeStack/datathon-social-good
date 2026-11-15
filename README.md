@@ -1,44 +1,61 @@
-# ⚠️ Project name — 8th Annual Datathon for Social Good
+# Priced Out: Bay Area rent spikes and where renters can go
 
-**Pitch (one paragraph):** ⚠️ TODO — cause, who is affected, what we predict, why it helps.
+8th Annual Datathon for Social Good
 
-**Results summary:** ⚠️ TODO — filled from `outputs/tables/07_key_findings.csv` after final eval.
+Bay Area rent keeps climbing, and low-income renters can't see the next hike coming. We combine housing
+costs, wages, and access to everyday services for 293 Bay Area zip codes, then use two models:
 
-Advanced Track evidence: [docs/checklist.md](docs/checklist.md) · Ethics: [docs/ethics.md](docs/ethics.md) ·
-Data decisions: [docs/data_decisions.md](docs/data_decisions.md)
+- **Model 1** predicts which areas are likely to see a rent spike.
+- **Model 2** takes a renter's needs (budget, workplace, services they rely on) together with Model 1's
+  predictions and suggests alternative places to rent.
 
-## Reproduce
+## What's in this repo
+
+| Folder | What it holds | Write-up |
+|---|---|---|
+| `datathon/anna_upload/` | Access to essential services: distance from homes to groceries, pharmacies, doctors, banks, transit and food banks; access score per zip | [anna_essential_services.md](datathon/anna_upload/docs/anna_essential_services.md) |
+| `housing_costs/` | Housing costs per zip: typical rent and home value, change since 2019, income needed for rent | [albert_housing_costs.md](housing_costs/docs/albert_housing_costs.md) |
+| `tim_upload/` | Wages and housing affordability: advertised pay by job and city compared with local rent | [wages_and_affordability.md](tim_upload/docs/wages_and_affordability.md) |
+| `rent-vs-reach-map/` | Interactive map of rent, jobs, opinions and access by zip (`index.html`; data built by `scripts/build_data.py`) | |
+| `src/`, `run.py`, `tests/` | One-command modeling pipeline: cleaning, logged joins, a seeded train/validation/test split, models scored next to baselines, subgroup and failure analysis | |
+
+Each write-up documents its data sources, cleaning steps, joins, hand checks and known biases.
+
+## Data
+
+Provided by the datathon (most via Bright Data / The Bright Initiative): Zillow Housing listings,
+Google Maps Places and Reviews, Indeed job postings. External: Zillow Research rent (ZORI) and home value
+(ZHVI) indexes, BLS wage data, and Census ZIP code boundaries for the map.
+
+Raw datathon files are not committed. Put them in `data/raw/` (read-only; never edited).
+
+## Reproduce the pipeline
 
 ```bash
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-# put the shared-drive dataset folders in data/raw/ (read-only; never edited)
-make all          # or: python run.py all
-make final        # ONCE, after features are frozen: test-set predictions + final tables
-make check        # integration checks -> outputs/check_report.md
+python run.py all      # or: make all
+python run.py final    # run once, after features are frozen: scores the held-out test set
+python run.py check    # checks -> outputs/check_report.md
 ```
 
-| step | command | writes |
+| Step | Command | Writes |
 |---|---|---|
 | data | `run.py data` | `data/interim/*.parquet`, `01_dataset_summary.csv` |
 | features | `run.py features` | `data/processed/master.parquet`, `02_join_audit.csv` |
 | split | `run.py split` | `data/processed/split_ids.parquet` (seeded, once) |
 | train | `run.py train` | `outputs/models/*.joblib` + metadata json |
-| predict | `run.py predict` | val predictions (test only when `final_eval` / `run.py final`) |
+| predict | `run.py predict` | validation predictions (test only in `run.py final`) |
 | eval | `run.py eval` | `03_model_vs_baseline`, `04_subgroup_performance`, `05_failure_examples` |
 | tables | `run.py tables` | `06_hand_check_sample`, `07_key_findings` |
 | figures | `run.py figures` | `outputs/figures/*.png/svg` |
 
-No `make` on Windows? Every target works as `python run.py <target>`.
+The test set is never used for training or tuning: it is predicted only by `run.py final`, and
+`tests/test_leakage.py` checks that no test IDs appear in training or validation.
 
-## How to plug in your part (teammates)
-1. **Cleaner**: copy `src/data/clean_TEMPLATE.py` to `clean_<name>.py`, add `<name>` to
-   `config.yaml: datasets`, and ask the Integrator to add its schema to `src/data/schemas.py`.
-2. **Features**: implement `build()` in `src/features/build_features.py`; use
-   `src.features.joins.audited_merge` for every join.
-3. **Task**: set `task.*` (target, id, subgroup columns) and `split.group_col` in `config.yaml`.
-4. **Hand checks**: drop `docs/hand_checks/<name>.csv` (`item_id, auto_value, checked_value, checker`).
-5. Notebooks go in `notebooks/NN_owner_topic.ipynb`, outputs stripped. Reported numbers must come from `run.py`.
+## Ethics
 
-## Repo layout
-See `CLAUDE.md` §4.
+Results are reported at zip-code level only, never for individual addresses or listings. Spike
+predictions could be misused by landlords, and neighborhood recommendations could steer people, so
+renters set every preference in Model 2. Areas with thin data are shown as having no data rather than
+estimated. Each write-up lists its own known biases.

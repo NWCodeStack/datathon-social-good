@@ -1,8 +1,8 @@
 """TEMPLATE — copy to src/data/clean_<name>.py, add <name> to config.yaml `datasets`,
 and add SCHEMAS["<name>"] in src/data/schemas.py.
 
-Rules (CLAUDE.md §5): never write to raw_dir; write exactly one parquet to interim_dir;
-print row counts before/after each filter so decisions can be logged in docs/data_decisions.md.
+Rules: never write to raw_dir; write exactly one parquet to interim_dir;
+print row counts before/after each filter so decisions can be documented in the dataset's write-up.
 """
 from __future__ import annotations
 
@@ -14,7 +14,7 @@ NAME = "TEMPLATE"
 
 
 def clean(raw_dir: Path, interim_dir: Path) -> Path:
-    df = pd.read_csv(raw_dir / NAME / "data.csv")  # ⚠️ adjust to real file name/format
+    df = pd.read_csv(raw_dir / NAME / "data.csv")  # adjust to the real file name/format
     n0 = len(df)
 
     # --- cleaning steps: each one logged ---

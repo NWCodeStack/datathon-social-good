@@ -1,5 +1,4 @@
 # Single source of truth for paths, seeds, split and task definition.
-# Shared file: changes go through the Integrator (Person 4).
 
 seed: 42
 
@@ -10,14 +9,13 @@ paths:
   tables: outputs/tables
   figures: outputs/figures
   models: outputs/models
-  hand_checks: docs/hand_checks
+  hand_checks: hand_checks
 
-# ⚠️ TODO(team): pick ONE geographic unit for all geo joins: zip | tract | city | none
+# One geographic unit for all geo joins: zip | tract | city | none
 geography_unit: zip
 
 # Cleaners to run in `run.py data`. Each name maps to src/data/clean_<name>.py,
 # which must define `clean(raw_dir, interim_dir) -> Path` and a SCHEMA in src/data/schemas.py.
-# ⚠️ TODO(team): e.g. [places, reviews]
 datasets: []
 
 # Feature builder: module in src/features/ exposing `build(cfg) -> pd.DataFrame` (the master table).
@@ -34,7 +32,7 @@ task:
   feature_cols: null         # null = all numeric columns except id/target/group/excluded
   categorical_cols: []       # one-hot encoded
   exclude_cols: []           # never used as features (e.g. leaky columns, raw text)
-  subgroup_cols: []          # ⚠️ ≥3 meaningful groups needed for Advanced (e.g. city, place_type)
+  subgroup_cols: []          # 3+ meaningful groups for the fairness analysis (e.g. county)
   display_cols: []           # extra context columns copied into 05_failure_examples.csv
   small_n: 30                # subgroups smaller than this get a caution flag
 

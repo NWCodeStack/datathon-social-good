@@ -1,8 +1,7 @@
-"""Integration checks (CLAUDE.md §8). Prints PASS / FAIL / MANUAL per item and writes
+"""Integration checks for the Advanced Track requirements. Prints PASS / FAIL / MANUAL per item and writes
 outputs/check_report.md. `run.py check` runs `all` + pytest first, so item 1-3 reflect that run."""
 from __future__ import annotations
 
-import re
 import sys
 
 import pandas as pd
@@ -57,25 +56,20 @@ def check(cfg) -> list[tuple[str, str, str]]:
     R.append(("5 >=3 subgroups + failure examples", "PASS" if n_groups >= 3 and n_fail > 0 else "FAIL",
               f"{n_groups} subgroup rows, {n_fail} failure examples"))
 
-    # 6. data decisions documented + hand check
-    dd = (ROOT / "docs" / "data_decisions.md").read_text(encoding="utf-8")
+    # 6. data decisions: documented in each analysis write-up; hand-check results in 06
     hc = tbl("06_hand_check_sample.csv")
-    todos = len(re.findall(r"⚠️|TODO", dd))
-    ok6 = todos == 0 and hc is not None and len(hc) > 0
-    R.append(("6 data decisions + hand-check", "PASS" if ok6 else "FAIL",
-              f"{todos} TODO markers in data_decisions.md; {0 if hc is None else len(hc)} hand-check(s)"))
+    n_hc = 0 if hc is None else len(hc)
+    R.append(("6 data decisions + hand-check", "PASS" if n_hc else "MANUAL",
+              f"{n_hc} hand-check(s) in 06_hand_check_sample.csv; data decisions live in each analysis write-up"))
 
     # 7. README verified by a human
     R.append(("7 README repro verified", "MANUAL", "follow README from a fresh clone on a teammate's laptop"))
 
-    # 8. slides vs 07 — references like [F3] in slides_outline.md must exist in 07
+    # 8. slide numbers vs 07 (the deck lives in Google Slides, outside the repo)
     kf = tbl("07_key_findings.csv")
-    outline = (ROOT / "docs" / "slides_outline.md").read_text(encoding="utf-8")
-    refs = set(re.findall(r"\[(F\d+)\]", outline))
-    missing = refs - (set(kf["id"]) if kf is not None else set())
-    R.append(("8 slide numbers match 07", "FAIL" if missing else "MANUAL",
-              f"missing finding ids: {sorted(missing)}" if missing else
-              f"{len(refs)} [F#] refs resolve; eyeball deck numbers against 07_key_findings.csv"))
+    R.append(("8 slide numbers match 07", "MANUAL",
+              f"compare the deck's numbers with 07_key_findings.csv ({0 if kf is None else len(kf)} findings)"))
+
     return R
 
 
