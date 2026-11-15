@@ -12,11 +12,46 @@ This part of the project estimates what common Bay Area jobs pay, measures histo
 
 1. **Typical rent can exceed a worker’s entire gross salary.** The Belmont cashier estimate implies spending **114.8% of annual pay** renting a typical home. This estimate has fewer than 10 usable salaries and is illustrative rather than a headline finding.
 2. **Higher pay does not necessarily make buying affordable.** In Burlingame, the software-engineer estimate puts rent at **22.6% of gross pay**, but buying requires approximately **3.43 times that salary** under the mortgage assumptions.
-3. **Historical wage growth varies by occupation and metro.** Average annual software-developer wage growth was approximately **4.35% in the San Francisco metro** and **6.76% in the San Jose metro**, using the retained annual comparisons.
-4. **Some local estimates have limited support.** Posting counts and usable-salary counts distinguish stronger estimates from thin data.
-5. **Missing information remains missing.** Unavailable salaries, rents, home values, and growth estimates are not replaced with zero.
+3. **Historical wage growth differs across occupations and nearby metros.** Average annual wage growth was approximately **4.35% for software developers** and **4.54% for registered nurses** in the San Francisco metro, compared with **6.76%** and **8.06%**, respectively, in the San Jose metro. These estimates use the retained annual comparisons and describe occupation-level wage changes, not individual raises. Metro-boundary verification remains pending.
+4. **Rent affordability differs sharply by occupation within the same ZIP.** In Burlingame ZIP 94010, typical monthly rent is approximately **$4,144**. That represents **22.6% of estimated software-engineer pay**, compared with **106.8% of warehouse-worker pay**. The warehouse estimate is flagged as thin data, so this comparison is illustrative.
+5. **Some estimates are supported by substantially more salary information than others.** Oakland’s accountant estimate uses **10 usable salaries from 13 postings**, with median annual advertised pay of **$106,454**. Several smaller-city accountant estimates rely on only one or two salaries, making their medians more sensitive to individual postings.
+6. **High rent burdens persist among estimates with stronger data support.** Of 598 job/ZIP combinations with usable rent estimates that meet the data-quality thresholds, **474 (79.3%)** require more than 30% of gross annual pay for rent. **154 (25.8%)** require more than the worker’s entire annual salary.
+7. **Cashiers face consistently high rent burdens across the supported ZIP estimates.** Among the 54 cashier/ZIP combinations meeting the data-quality thresholds with available rent, even the lowest rent burden is **69.3% of gross annual pay**. The median is **107.8%**.
 
 These results compare advertised pay with typical housing costs. They do not measure what individual households actually earn or spend.
+
+---
+
+## Rent affordability by occupation
+
+This table includes job/ZIP combinations with at least **10 usable
+salary postings** and housing **not flagged as low data**.
+
+| Occupation | ZIPs with usable rent estimates | Median rent burden |
+|---|---:|---:|
+| Software engineer | 107 | 22.5% |
+| Registered nurse | 72 | 33.9% |
+| Electrician | 25 | 46.6% |
+| Accountant | 63 | 50.4% |
+| Medical assistant | 50 | 84.8% |
+| Warehouse worker | 61 | 94.6% |
+| Retail sales | 91 | 100.1% |
+| Food service worker | 75 | 103.9% |
+| Cashier | 54 | 107.8% |
+| **All included job/ZIP combinations** | **598 combinations** | — |
+
+**How to read:** The median rent burden is the middle value across
+the included ZIPs for each occupation. For example, the cashier
+median of 107.8% means typical annual rent exceeds estimated gross
+annual pay at the middle of the covered cashier ZIP estimates.
+
+Childcare workers, home health aides, and K–12 teachers are omitted
+because no job/ZIP combinations met both data-quality thresholds
+with usable rent estimates.
+
+These are ZIP-level comparisons, not worker-weighted statistics.
+City-level wages are reused across ZIPs, and each included ZIP
+receives equal weight within its occupation.
 
 ---
 
@@ -69,7 +104,7 @@ Salary ranges use their midpoint.
 | Monthly | Pay × 12 |
 | Annual | Use directly |
 
-English and Spanish pay-unit labels are supported. One-sided offers such as “From $19 an hour” are excluded from pay medians because they provide a bound rather than a complete estimate.
+One-sided offers such as “From $19 an hour” are excluded from pay medians because they provide a bound rather than a complete estimate.
 
 ### How wage growth works
 
@@ -86,7 +121,7 @@ Food service, warehouse work, and K–12 teaching span multiple BLS occupations.
 
 **Rent burden = 12 × typical monthly rent ÷ median annual pay.**
 
-A value of **0.40** means rent consumes **40% of gross annual pay**. Values above 1.0 are retained.
+A value of **0.40** means rent consumes **40% of gross annual pay**. Values above 1.0 are kept.
 
 ### How ownership gap works
 
@@ -99,7 +134,7 @@ A value of **0.40** means rent consumes **40% of gross annual pay**. Values abov
 
 A value of **2.0** means buying requires twice the estimated job salary.
 
-The calculation uses a **7.11% annual interest rate**, reported by the participant as Freddie Mac’s November 12, 2026 rate. Independent verification remains pending.
+The calculation uses a **7.11% annual interest rate**, reported by the participant as Freddie Mac’s November 12, 2026 rate. 
 
 ---
 
@@ -114,8 +149,6 @@ The calculation uses a **7.11% annual interest rate**, reported by the participa
 - **Postings without usable pay remain in posting counts.**
 - **Thin data is flagged.** `thin_data` means fewer than 10 postings; `thin_pay_data` means fewer than 10 usable salaries.
 - **K–12 teachers require explicit school-level evidence.** Preschool, assistants, substitutes, tutoring, after-school, and identified special-education roles are excluded.
-- **ZIP codes are stored as five-character text.**
-- **Housing estimates retain their original meaning.** `typical_rent` and `typical_home_value` are not described as listing medians.
 - **Seven housing rows were excluded** because of out-of-area or unverified ZIP mappings, leaving 286 housing ZIP rows.
 - **Growth projections are scenarios**, not validated forecasting-model predictions.
 
@@ -136,7 +169,7 @@ The calculation uses a **7.11% annual interest rate**, reported by the participa
 
 ---
 
-## Files in this contribution
+## Files 
 
 | File | What it is |
 |---|---|
@@ -145,8 +178,6 @@ The calculation uses a **7.11% annual interest rate**, reported by the participa
 | `outputs/burden_by_job_zip_details.csv` | Supporting housing, salary, mortgage calculations, and quality flags |
 | `outputs/figures/wages_rent_burden.png` | Rent-burden figure using estimates meeting data-quality thresholds |
 | `notebooks/wages_and_affordability.ipynb` | Cleaning, wage-growth, housing-affordability, and export workflow |
-
-Additional audit files are generated in the notebook’s configured Drive output folder. These include cleaned postings, BLS history, title-review samples, housing exclusions, and unmatched cities.
 
 ### Wage and burden columns
 
@@ -181,20 +212,6 @@ The figure shows the **10 highest rent-burden examples** among job/city estimate
 The figure compares typical whole-home rent with one worker’s salary. It does not measure actual household spending or account for roommates, multiple earners, taxes, or differences in housing size.
 
 The figure selects high-burden examples; it does not show the full distribution of Bay Area affordability.
-
----
-
-## Notes for Person 4
-
-- **Join on job and ZIP.** The burden table contains multiple jobs per ZIP.
-- **Preserve missing values and quality flags.** Missing does not mean zero.
-- **Use at least 10 usable salaries** and exclude housing `low_data` rows for headline findings.
-- **Some cities lack matching wages.** Do not invent a zero-pay or regional fallback.
-- **Solano K–12 growth remains unavailable.**
-- **Metro-boundary verification is pending.** Name changes in 2024 triggered temporary exclusions of the corresponding annual comparisons for San Francisco, Santa Rosa, and Vallejo. A changed name alone does not prove a boundary change.
-- **Independently verify the mortgage rate** before submission.
-- **Confirm joins and rerun the cleaned notebook** from top to bottom before freezing deliverables.
-- **Show results at ZIP level**, not individual addresses.
 
 ---
 
