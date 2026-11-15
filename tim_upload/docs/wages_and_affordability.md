@@ -1,4 +1,4 @@
-# Wages and Housing Affordability: Tim (Person 2)
+# Wages and Housing Affordability: Tim 
 
 **Datathon for Social Good 2026 · Bay Area Affordability Project**
 
