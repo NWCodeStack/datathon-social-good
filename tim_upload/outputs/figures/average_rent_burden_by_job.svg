@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Average rent burden across covered ZIPs, by occupation</title>
+<desc id="desc">Average annual whole-home rent divided by one worker’s gross annual pay, across ZIPs. Nine occupations meet the data-quality thresholds.</desc>
+<rect width="1200" height="760" fill="white"/>
+<g font-family="Arial, sans-serif" fill="#17243f">
+<text x="600" y="43" text-anchor="middle" font-size="25">Average rent burden across covered ZIPs, by occupation</text>
+<line x1="235.0" y1="85" x2="235.0" y2="615" stroke="#e5e7eb"/>
+<text x="235.0" y="640" text-anchor="middle" font-size="15">0%</text>
+<line x1="346.42857142857144" y1="85" x2="346.42857142857144" y2="615" stroke="#e5e7eb"/>
+<text x="346.42857142857144" y="640" text-anchor="middle" font-size="15">20%</text>
+<line x1="457.85714285714283" y1="85" x2="457.85714285714283" y2="615" stroke="#e5e7eb"/>
+<text x="457.85714285714283" y="640" text-anchor="middle" font-size="15">40%</text>
+<line x1="569.2857142857142" y1="85" x2="569.2857142857142" y2="615" stroke="#e5e7eb"/>
+<text x="569.2857142857142" y="640" text-anchor="middle" font-size="15">60%</text>
+<line x1="680.7142857142857" y1="85" x2="680.7142857142857" y2="615" stroke="#e5e7eb"/>
+<text x="680.7142857142857" y="640" text-anchor="middle" font-size="15">80%</text>
+<line x1="792.1428571428571" y1="85" x2="792.1428571428571" y2="615" stroke="#e5e7eb"/>
+<text x="792.1428571428571" y="640" text-anchor="middle" font-size="15">100%</text>
+<line x1="903.5714285714286" y1="85" x2="903.5714285714286" y2="615" stroke="#e5e7eb"/>
+<text x="903.5714285714286" y="640" text-anchor="middle" font-size="15">120%</text>
+<line x1="1015.0" y1="85" x2="1015.0" y2="615" stroke="#e5e7eb"/>
+<text x="1015.0" y="640" text-anchor="middle" font-size="15">140%</text>
+<text x="220" y="128" text-anchor="end" font-size="17">Software engineer</text>
+<rect x="235" y="105" width="126.96219664242446" height="38" fill="#2a78d6"/>
+<text x="371.9621966424245" y="129" font-size="16">22.8% (n=107 ZIPs)</text>
+<text x="220" y="185" text-anchor="end" font-size="17">Registered nurse</text>
+<rect x="235" y="162" width="188.58699559332103" height="38" fill="#2a78d6"/>
+<text x="433.58699559332103" y="186" font-size="16">33.8% (n=72 ZIPs)</text>
+<text x="220" y="242" text-anchor="end" font-size="17">Electrician</text>
+<rect x="235" y="219" width="265.88620862057115" height="38" fill="#2a78d6"/>
+<text x="510.88620862057115" y="243" font-size="16">47.7% (n=25 ZIPs)</text>
+<text x="220" y="299" text-anchor="end" font-size="17">Accountant</text>
+<rect x="235" y="276" width="281.1001735802617" height="38" fill="#2a78d6"/>
+<text x="526.1001735802618" y="300" font-size="16">50.5% (n=63 ZIPs)</text>
+<text x="220" y="356" text-anchor="end" font-size="17">Medical assistant</text>
+<rect x="235" y="333" width="478.0967331592675" height="38" fill="#2a78d6"/>
+<text x="723.0967331592675" y="357" font-size="16">85.8% (n=50 ZIPs)</text>
+<text x="220" y="413" text-anchor="end" font-size="17">Warehouse worker</text>
+<rect x="235" y="390" width="554.4141849088038" height="38" fill="#2a78d6"/>
+<text x="799.4141849088038" y="414" font-size="16">99.5% (n=61 ZIPs)</text>
+<text x="220" y="470" text-anchor="end" font-size="17">Retail sales</text>
+<rect x="235" y="447" width="571.6698850226446" height="38" fill="#2a78d6"/>
+<text x="816.6698850226446" y="471" font-size="16">102.6% (n=91 ZIPs)</text>
+<text x="220" y="527" text-anchor="end" font-size="17">Food service worker</text>
+<rect x="235" y="504" width="592.1128327258594" height="38" fill="#2a78d6"/>
+<text x="837.1128327258594" y="528" font-size="16">106.3% (n=75 ZIPs)</text>
+<text x="220" y="584" text-anchor="end" font-size="17">Cashier</text>
+<rect x="235" y="561" width="614.4284651004871" height="38" fill="#2a78d6"/>
+<text x="859.4284651004871" y="585" font-size="16">110.3% (n=54 ZIPs)</text>
+<line x1="402.1428571428571" y1="85" x2="402.1428571428571" y2="615" stroke="#eb6834" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="410.1428571428571" y="78" fill="#b34e23" font-size="15">30% reference</text>
+<text x="625" y="674" text-anchor="middle" font-size="16">Average typical annual rent as % of one worker’s gross annual pay</text>
+<text x="24" y="714" font-size="13">Each ZIP receives equal weight. Includes ≥10 usable salaries per job/city and housing not flagged as low data.</text>
+<text x="24" y="736" font-size="13">Compares whole-home rent with one worker’s gross pay. Occupations cover different sets of ZIPs.</text>
+</g></svg>
