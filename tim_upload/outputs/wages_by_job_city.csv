@@ -1,0 +1,578 @@
+job,city,median_pay,n_postings,n_usable_pay,share_missing_pay,thin_data,thin_pay_data,county,AREA,wage_growth,projected_pay
+Accountant,Alameda,96750.0,3,2,0.3333333333333333,True,True,Alameda,41860,0.03473514439214753,100110.63
+Accountant,Benicia,110000.0,1,1,0.0,True,True,Solano,46700,0.03240675027170862,113564.74
+Accountant,Berkeley,113750.0,2,2,0.0,True,True,Alameda,41860,0.03473514439214753,117701.12
+Accountant,Burlingame,100000.0,1,1,0.0,True,True,San Mateo,41860,0.03473514439214753,103473.51
+Accountant,Concord,76950.0,1,1,0.0,True,True,Contra Costa,41860,0.03473514439214753,79622.87
+Accountant,Danville,83200.0,1,1,0.0,True,True,Contra Costa,41860,0.03473514439214753,86089.96
+Accountant,Emeryville,132500.0,1,1,0.0,True,True,Alameda,41860,0.03473514439214753,137102.41
+Accountant,Fairfield,80781.11,2,2,0.0,True,True,Solano,46700,0.03240675027170862,83398.96
+Accountant,Foster City,122500.0,1,1,0.0,True,True,San Mateo,41860,0.03473514439214753,126755.06
+Accountant,Fremont,96750.0,5,4,0.2,True,True,Alameda,41860,0.03473514439214753,100110.63
+Accountant,Livermore,123000.0,3,2,0.3333333333333333,True,True,Alameda,41860,0.03473514439214753,127272.42
+Accountant,Los Altos,92500.0,2,2,0.0,True,True,Santa Clara,41940,0.04994283611069422,97119.71
+Accountant,Los Gatos,135000.0,1,1,0.0,True,True,Santa Clara,41940,0.04994283611069422,141742.28
+Accountant,Menlo Park,117996.0,3,3,0.0,True,True,San Mateo,41860,0.03473514439214753,122094.61
+Accountant,Milpitas,,1,0,1.0,True,True,Santa Clara,41940,0.04994283611069422,
+Accountant,Morgan Hill,93750.0,2,2,0.0,True,True,Santa Clara,41940,0.04994283611069422,98432.14
+Accountant,Mountain View,120000.0,3,3,0.0,True,True,Santa Clara,41940,0.04994283611069422,125993.14
+Accountant,Napa,85000.0,4,3,0.25,True,True,Napa,34900,0.029268075192849796,87487.79
+Accountant,Oakland,106454.0,13,10,0.15384615384615385,False,False,Alameda,41860,0.03473514439214753,110151.7
+Accountant,Palo Alto,115000.0,5,5,0.0,True,True,Santa Clara,41940,0.04994283611069422,120743.43
+Accountant,Petaluma,85724.4,2,2,0.0,True,True,Sonoma,42220,0.06722615906546696,91487.32
+Accountant,Pleasanton,88400.0,4,3,0.25,True,True,Alameda,41860,0.03473514439214753,91470.59
+Accountant,Redwood City,114000.0,4,3,0.25,True,True,San Mateo,41860,0.03473514439214753,117959.81
+Accountant,Richmond,80000.0,1,1,0.0,True,True,Contra Costa,41860,0.03473514439214753,82778.81
+Accountant,San Carlos,136500.0,1,1,0.0,True,True,San Mateo,41860,0.03473514439214753,141241.35
+Accountant,San Francisco,95000.0,30,28,0.06666666666666667,False,False,San Francisco,41860,0.03473514439214753,98299.84
+Accountant,San Jose,87950.0,24,20,0.16666666666666666,False,False,Santa Clara,41940,0.04994283611069422,92342.47
+Accountant,San Mateo,124976.0,4,2,0.5,True,True,San Mateo,41860,0.03473514439214753,129317.06
+Accountant,San Rafael,87150.0,3,3,0.0,True,True,Marin,41860,0.03473514439214753,90177.17
+Accountant,San Ramon,84950.0,2,2,0.0,True,True,Contra Costa,41860,0.03473514439214753,87900.75
+Accountant,Santa Clara,97500.0,12,7,0.4166666666666667,False,True,Santa Clara,41940,0.04994283611069422,102369.43
+Accountant,Santa Rosa,65520.0,1,1,0.0,True,True,Sonoma,42220,0.06722615906546696,69924.66
+Accountant,Sonoma,107500.0,1,1,0.0,True,True,Sonoma,42220,0.06722615906546696,114726.81
+Accountant,South San Francisco,131500.0,1,1,0.0,True,True,San Mateo,41860,0.03473514439214753,136067.67
+Accountant,Stanford,,1,0,1.0,True,True,Santa Clara,41940,0.04994283611069422,
+Accountant,Sunnyvale,102500.0,4,4,0.0,True,True,Santa Clara,41940,0.04994283611069422,107619.14
+Accountant,Vacaville,75000.0,1,1,0.0,True,True,Solano,46700,0.03240675027170862,77430.51
+Accountant,Walnut Creek,69740.0,5,2,0.6,True,True,Contra Costa,41860,0.03473514439214753,72162.43
+Accountant,Yountville,95000.0,1,1,0.0,True,True,Napa,34900,0.029268075192849796,97780.47
+Cashier,Alameda,37044.8,5,2,0.2,True,True,Alameda,41860,0.04412363935966098,38679.35
+Cashier,Alamo,34840.0,1,1,0.0,True,True,Contra Costa,41860,0.04412363935966098,36377.27
+Cashier,Antioch,35308.0,7,2,0.42857142857142855,True,True,Contra Costa,41860,0.04412363935966098,36865.92
+Cashier,Belmont,39598.0,2,2,0.0,True,True,San Mateo,41860,0.04412363935966098,41345.21
+Cashier,Benicia,,1,0,1.0,True,True,Solano,46700,0.05690139088721646,
+Cashier,Berkeley,51719.2,3,3,0.0,True,True,Alameda,41860,0.04412363935966098,54001.24
+Cashier,Brentwood,39416.0,4,3,0.25,True,True,Contra Costa,41860,0.04412363935966098,41155.18
+Cashier,Brisbane,39520.0,1,1,0.0,True,True,San Mateo,41860,0.04412363935966098,41263.77
+Cashier,Burlingame,44564.0,2,1,0.0,True,True,San Mateo,41860,0.04412363935966098,46530.33
+Cashier,Calistoga,39520.0,1,1,0.0,True,True,Napa,34900,0.035347706772912435,40916.94
+Cashier,Campbell,43810.0,4,2,0.25,True,True,Santa Clara,41940,0.043958509654319744,45735.82
+Cashier,Castro Valley,37960.0,2,2,0.0,True,True,Alameda,41860,0.04412363935966098,39634.93
+Cashier,Colma,43680.0,2,1,0.0,True,True,San Mateo,41860,0.04412363935966098,45607.32
+Cashier,Concord,41600.0,19,15,0.15789473684210525,False,False,Contra Costa,41860,0.04412363935966098,43435.54
+Cashier,Cupertino,44720.0,1,1,0.0,True,True,Santa Clara,41940,0.043958509654319744,46685.82
+Cashier,Daly City,42640.0,5,4,0.2,True,True,San Mateo,41860,0.04412363935966098,44521.43
+Cashier,Danville,39000.0,3,3,0.0,True,True,Contra Costa,41860,0.04412363935966098,40720.82
+Cashier,Dixon,40560.0,4,4,0.0,True,True,Solano,46700,0.05690139088721646,42867.92
+Cashier,Dublin,36712.0,5,3,0.2,True,True,Alameda,41860,0.04412363935966098,38331.87
+Cashier,East Palo Alto,42640.0,1,1,0.0,True,True,San Mateo,41860,0.04412363935966098,44521.43
+Cashier,El Cerrito,42640.0,2,2,0.0,True,True,Contra Costa,41860,0.04412363935966098,44521.43
+Cashier,Emeryville,43316.0,5,2,0.4,True,True,Alameda,41860,0.04412363935966098,45227.26
+Cashier,Fairfield,39780.0,3,3,0.0,True,True,Solano,46700,0.05690139088721646,42043.54
+Cashier,Foster City,39000.0,3,1,0.6666666666666666,True,True,San Mateo,41860,0.04412363935966098,40720.82
+Cashier,Fremont,43680.0,4,1,0.25,True,True,Alameda,41860,0.04412363935966098,45607.32
+Cashier,Gilroy,37887.2,7,5,0.2857142857142857,True,True,Santa Clara,41940,0.043958509654319744,39552.66
+Cashier,Half Moon Bay,40820.0,1,1,0.0,True,True,San Mateo,41860,0.04412363935966098,42621.13
+Cashier,Hayward,42640.0,7,5,0.2857142857142857,True,True,Alameda,41860,0.04412363935966098,44521.43
+Cashier,Hercules,42640.0,1,1,0.0,True,True,Contra Costa,41860,0.04412363935966098,44521.43
+Cashier,Kentfield,40560.0,1,1,0.0,True,True,Marin,41860,0.04412363935966098,42349.65
+Cashier,Livermore,40378.0,6,4,0.0,True,True,Alameda,41860,0.04412363935966098,42159.62
+Cashier,Martinez,39520.0,3,2,0.3333333333333333,True,True,Contra Costa,41860,0.04412363935966098,41263.77
+Cashier,Menlo Park,36504.0,1,1,0.0,True,True,San Mateo,41860,0.04412363935966098,38114.69
+Cashier,Millbrae,42068.0,2,2,0.0,True,True,San Mateo,41860,0.04412363935966098,43924.19
+Cashier,Milpitas,43680.0,3,2,0.3333333333333333,True,True,Santa Clara,41940,0.043958509654319744,45600.11
+Cashier,Morgan Hill,44096.0,2,2,0.0,True,True,Santa Clara,41940,0.043958509654319744,46034.39
+Cashier,Mountain View,42640.0,1,1,0.0,True,True,Santa Clara,41940,0.043958509654319744,44514.39
+Cashier,Napa,42312.4,14,4,0.2857142857142857,False,True,Napa,34900,0.035347706772912435,43808.05
+Cashier,Newark,42640.0,1,1,0.0,True,True,Alameda,41860,0.04412363935966098,44521.43
+Cashier,Oakland,43680.0,10,7,0.3,False,True,Alameda,41860,0.04412363935966098,45607.32
+Cashier,Oakley,,1,0,1.0,True,True,Contra Costa,41860,0.04412363935966098,
+Cashier,Pacifica,37440.0,1,1,0.0,True,True,San Mateo,41860,0.04412363935966098,39091.99
+Cashier,Palo Alto,42380.0,4,3,0.0,True,True,Santa Clara,41940,0.043958509654319744,44242.96
+Cashier,Petaluma,39582.4,5,3,0.0,True,True,Sonoma,42220,0.04015625126985811,41171.88
+Cashier,Pinole,32760.0,1,1,0.0,True,True,Contra Costa,41860,0.04412363935966098,34205.49
+Cashier,Pittsburg,41007.2,7,5,0.2857142857142857,True,True,Contra Costa,41860,0.04412363935966098,42816.59
+Cashier,Pleasant Hill,35672.0,8,5,0.125,True,True,Contra Costa,41860,0.04412363935966098,37245.98
+Cashier,Pleasanton,41340.0,3,2,0.3333333333333333,True,True,Alameda,41860,0.04412363935966098,43164.07
+Cashier,Richmond,47060.0,3,2,0.3333333333333333,True,True,Contra Costa,41860,0.04412363935966098,49136.46
+Cashier,Rohnert Park,40528.8,3,2,0.3333333333333333,True,True,Sonoma,42220,0.04015625126985811,42156.28
+Cashier,San Carlos,40560.0,2,2,0.0,True,True,San Mateo,41860,0.04412363935966098,42349.65
+Cashier,San Francisco,46919.6,19,10,0.3157894736842105,False,False,San Francisco,41860,0.04412363935966098,48989.86
+Cashier,San Jose,43487.6,43,18,0.32558139534883723,False,False,Santa Clara,41940,0.043958509654319744,45399.25
+Cashier,San Leandro,44122.0,4,2,0.5,True,True,Alameda,41860,0.04412363935966098,46068.82
+Cashier,San Lorenzo,35776.0,1,1,0.0,True,True,Alameda,41860,0.04412363935966098,37354.57
+Cashier,San Mateo,43680.0,13,8,0.0,False,True,San Mateo,41860,0.04412363935966098,45607.32
+Cashier,San Pablo,,2,0,1.0,True,True,Contra Costa,41860,0.04412363935966098,
+Cashier,San Rafael,37440.0,5,5,0.0,True,True,Marin,41860,0.04412363935966098,39091.99
+Cashier,San Ramon,36036.0,5,4,0.0,True,True,Contra Costa,41860,0.04412363935966098,37626.04
+Cashier,Santa Clara,43680.0,10,7,0.1,False,True,Santa Clara,41940,0.043958509654319744,45600.11
+Cashier,Santa Rosa,40560.0,12,9,0.0,False,True,Sonoma,42220,0.04015625126985811,42188.74
+Cashier,Sonoma,43716.4,2,2,0.0,True,True,Sonoma,42220,0.04015625126985811,45471.89
+Cashier,South San Francisco,38896.0,3,3,0.0,True,True,San Mateo,41860,0.04412363935966098,40612.23
+Cashier,Suisun City,48880.0,1,1,0.0,True,True,Solano,46700,0.05690139088721646,51661.34
+Cashier,Sunnyvale,43680.0,9,5,0.3333333333333333,True,True,Santa Clara,41940,0.043958509654319744,45600.11
+Cashier,Union City,42640.0,2,1,0.0,True,True,Alameda,41860,0.04412363935966098,44521.43
+Cashier,Vacaville,42380.0,7,4,0.42857142857142855,True,True,Solano,46700,0.05690139088721646,44791.48
+Cashier,Vallejo,39208.0,2,2,0.0,True,True,Solano,46700,0.05690139088721646,41438.99
+Cashier,Walnut Creek,35360.0,7,5,0.0,True,True,Contra Costa,41860,0.04412363935966098,36920.21
+Cashier,Windsor,42640.0,1,1,0.0,True,True,Sonoma,42220,0.04015625126985811,44352.26
+Cashier,Yountville,35152.0,1,1,0.0,True,True,Napa,34900,0.035347706772912435,36394.54
+Childcare worker,Alameda,55317.6,1,1,0.0,True,True,Alameda,41860,0.061975676931267966,58745.95
+Childcare worker,Atherton,,2,0,0.5,True,True,San Mateo,41860,0.061975676931267966,
+Childcare worker,Benicia,37284.0,1,1,0.0,True,True,Solano,46700,0.042301295865512824,38861.16
+Childcare worker,Fremont,67600.0,1,1,0.0,True,True,Alameda,41860,0.061975676931267966,71789.56
+Childcare worker,Palo Alto,130000.0,1,1,0.0,True,True,Santa Clara,41940,0.055056711909557965,137157.37
+Childcare worker,Pinole,44720.0,1,1,0.0,True,True,Contra Costa,41860,0.061975676931267966,47491.55
+Childcare worker,Pleasant Hill,57200.0,1,1,0.0,True,True,Contra Costa,41860,0.061975676931267966,60745.01
+Childcare worker,Rohnert Park,46800.0,1,1,0.0,True,True,Sonoma,42220,0.04563666851404428,48935.8
+Childcare worker,San Francisco,98800.0,3,1,0.0,True,True,San Francisco,41860,0.061975676931267966,104923.2
+Childcare worker,San Jose,67880.0,4,2,0.0,True,True,Santa Clara,41940,0.055056711909557965,71617.25
+Childcare worker,San Mateo,52000.0,2,1,0.0,True,True,San Mateo,41860,0.061975676931267966,55222.74
+Childcare worker,San Rafael,40560.0,1,1,0.0,True,True,Marin,41860,0.061975676931267966,43073.73
+Childcare worker,Santa Clara,50908.0,2,2,0.0,True,True,Santa Clara,41940,0.055056711909557965,53710.83
+Childcare worker,Santa Rosa,38480.0,1,1,0.0,True,True,Sonoma,42220,0.04563666851404428,40236.1
+Childcare worker,Sebastopol,42920.8,1,1,0.0,True,True,Sonoma,42220,0.04563666851404428,44879.56
+Childcare worker,South San Francisco,54808.0,1,1,0.0,True,True,San Mateo,41860,0.061975676931267966,58204.76
+Childcare worker,Sunnyvale,42640.0,2,2,0.0,True,True,Santa Clara,41940,0.055056711909557965,44987.62
+Childcare worker,Woodside,104000.0,1,1,0.0,True,True,San Mateo,41860,0.061975676931267966,110445.47
+Electrician,Alameda,83200.0,1,1,0.0,True,True,Alameda,41860,0.029703373161952373,85671.32
+Electrician,Antioch,146432.0,1,1,0.0,True,True,Contra Costa,41860,0.029703373161952373,150781.52
+Electrician,Belmont,109200.0,1,1,0.0,True,True,San Mateo,41860,0.029703373161952373,112443.61
+Electrician,Berkeley,104748.8,3,3,0.0,True,True,Alameda,41860,0.029703373161952373,107860.19
+Electrician,Campbell,,1,0,0.0,True,True,Santa Clara,41940,0.0005861671705129634,
+Electrician,Concord,80080.0,1,1,0.0,True,True,Contra Costa,41860,0.029703373161952373,82458.65
+Electrician,Fairfield,103667.2,1,1,0.0,True,True,Solano,46700,0.08187944316251716,112155.41
+Electrician,Fremont,96408.0,3,3,0.0,True,True,Alameda,41860,0.029703373161952373,99271.64
+Electrician,Gilroy,62400.0,1,1,0.0,True,True,Santa Clara,41940,0.0005861671705129634,62436.58
+Electrician,Guerneville,135200.0,1,1,0.0,True,True,Sonoma,42220,0.056886964795752726,142891.12
+Electrician,Hayward,85900.8,2,2,0.0,True,True,Alameda,41860,0.029703373161952373,88452.34
+Electrician,Lafayette,67600.0,1,1,0.0,True,True,Contra Costa,41860,0.029703373161952373,69607.95
+Electrician,Livermore,107026.4,2,1,0.5,True,True,Alameda,41860,0.029703373161952373,110205.45
+Electrician,Los Gatos,,2,0,1.0,True,True,Santa Clara,41940,0.0005861671705129634,
+Electrician,Menlo Park,72800.0,1,1,0.0,True,True,San Mateo,41860,0.029703373161952373,74962.41
+Electrician,Oakland,113625.2,2,2,0.0,True,True,Alameda,41860,0.029703373161952373,117000.25
+Electrician,Palo Alto,93849.6,2,1,0.5,True,True,Santa Clara,41940,0.0005861671705129634,93904.61
+Electrician,Pleasanton,100550.0,2,2,0.0,True,True,Alameda,41860,0.029703373161952373,103536.67
+Electrician,Redwood City,,1,0,1.0,True,True,San Mateo,41860,0.029703373161952373,
+Electrician,Richmond,,1,0,1.0,True,True,Contra Costa,41860,0.029703373161952373,
+Electrician,Rio Vista,146432.0,1,1,0.0,True,True,Solano,46700,0.08187944316251716,158421.77
+Electrician,San Carlos,78000.0,1,1,0.0,True,True,San Mateo,41860,0.029703373161952373,80316.86
+Electrician,San Francisco,90000.0,8,7,0.0,True,True,San Francisco,41860,0.029703373161952373,92673.3
+Electrician,San Jose,93600.0,17,15,0.058823529411764705,False,False,Santa Clara,41940,0.0005861671705129634,93654.87
+Electrician,San Mateo,104000.0,1,1,0.0,True,True,San Mateo,41860,0.029703373161952373,107089.15
+Electrician,San Rafael,93600.0,1,1,0.0,True,True,Marin,41860,0.029703373161952373,96380.24
+Electrician,Santa Clara,97760.0,1,1,0.0,True,True,Santa Clara,41940,0.0005861671705129634,97817.3
+Electrician,Santa Rosa,95680.0,5,4,0.2,True,True,Sonoma,42220,0.056886964795752726,101122.94
+Electrician,Sebastopol,83200.0,1,1,0.0,True,True,Sonoma,42220,0.056886964795752726,87933.0
+Electrician,Stanford,138444.8,1,1,0.0,True,True,Santa Clara,41940,0.0005861671705129634,138525.95
+Electrician,Sunnyvale,,1,0,1.0,True,True,Santa Clara,41940,0.0005861671705129634,
+Electrician,Union City,115606.4,2,1,0.5,True,True,Alameda,41860,0.029703373161952373,119040.3
+Electrician,Vallejo,65520.0,1,1,0.0,True,True,Solano,46700,0.08187944316251716,70884.74
+Food service worker,Alameda,42640.0,6,5,0.16666666666666666,True,True,Alameda,41860,0.04276164686278891,44463.36
+Food service worker,Alamo,47840.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,49885.72
+Food service worker,Antioch,44969.6,2,2,0.0,True,True,Contra Costa,41860,0.04276164686278891,46892.57
+Food service worker,Atherton,52000.0,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,54223.61
+Food service worker,Belmont,43804.8,2,2,0.0,True,True,San Mateo,41860,0.04276164686278891,45677.97
+Food service worker,Berkeley,42640.0,8,7,0.125,True,True,Alameda,41860,0.04276164686278891,44463.36
+Food service worker,Bodega Bay,35152.0,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,37286.56
+Food service worker,Brentwood,42640.0,3,3,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Brisbane,38542.4,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,40190.54
+Food service worker,Burlingame,43160.0,5,4,0.2,True,True,San Mateo,41860,0.04276164686278891,45005.59
+Food service worker,Calistoga,35152.0,1,1,0.0,True,True,Napa,34900,0.043976475363355604,36697.86
+Food service worker,Campbell,41080.0,3,2,0.3333333333333333,True,True,Santa Clara,41940,0.044565660947363674,42910.76
+Food service worker,Castro Valley,44969.6,2,2,0.0,True,True,Alameda,41860,0.04276164686278891,46892.57
+Food service worker,Cloverdale,44969.6,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,47700.32
+Food service worker,Colma,35152.0,2,1,0.5,True,True,San Mateo,41860,0.04276164686278891,36655.16
+Food service worker,Concord,42640.0,12,11,0.08333333333333333,False,False,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Corte Madera,43160.0,2,2,0.0,True,True,Marin,41860,0.04276164686278891,45005.59
+Food service worker,Cotati,43804.8,2,2,0.0,True,True,Sonoma,42220,0.06072369707549857,46464.79
+Food service worker,Cupertino,44969.6,7,5,0.14285714285714285,True,True,Santa Clara,41940,0.044565660947363674,46973.7
+Food service worker,Daly City,42640.0,3,3,0.0,True,True,San Mateo,41860,0.04276164686278891,44463.36
+Food service worker,Discovery Bay,44969.6,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,46892.57
+Food service worker,Dublin,36878.4,6,6,0.0,True,True,Alameda,41860,0.04276164686278891,38455.38
+Food service worker,East Palo Alto,49920.0,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,52054.66
+Food service worker,El Cerrito,42640.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Emeryville,,1,0,1.0,True,True,Alameda,41860,0.04276164686278891,
+Food service worker,Fairfax,39520.0,1,1,0.0,True,True,Marin,41860,0.04276164686278891,41209.94
+Food service worker,Fairfield,42640.0,3,3,0.0,True,True,Solano,46700,0.07035013450096993,45639.73
+Food service worker,Forestville,34320.0,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,36404.04
+Food service worker,Foster City,40840.8,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,42587.22
+Food service worker,Fremont,46800.0,11,9,0.0,False,True,Alameda,41860,0.04276164686278891,48801.25
+Food service worker,Gilroy,,2,0,1.0,True,True,Santa Clara,41940,0.044565660947363674,
+Food service worker,Greenbrae,44720.0,3,3,0.0,True,True,Marin,41860,0.04276164686278891,46632.3
+Food service worker,Guerneville,35152.0,2,2,0.0,True,True,Sonoma,42220,0.06072369707549857,37286.56
+Food service worker,Half Moon Bay,42640.0,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,44463.36
+Food service worker,Hayward,41600.0,8,7,0.125,True,True,Alameda,41860,0.04276164686278891,43378.88
+Food service worker,Healdsburg,,1,0,0.0,True,True,Sonoma,42220,0.06072369707549857,
+Food service worker,Hercules,42640.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Kentfield,43680.0,1,1,0.0,True,True,Marin,41860,0.04276164686278891,45547.83
+Food service worker,Lafayette,42484.0,4,2,0.5,True,True,Contra Costa,41860,0.04276164686278891,44300.69
+Food service worker,Larkspur,40060.8,2,2,0.0,True,True,Marin,41860,0.04276164686278891,41773.87
+Food service worker,Livermore,42640.0,3,3,0.0,True,True,Alameda,41860,0.04276164686278891,44463.36
+Food service worker,Los Altos,49920.0,4,4,0.0,True,True,Santa Clara,41940,0.044565660947363674,52144.72
+Food service worker,Los Gatos,42452.8,2,2,0.0,True,True,Santa Clara,41940,0.044565660947363674,44344.74
+Food service worker,Marshall,48776.0,2,2,0.0,True,True,Marin,41860,0.04276164686278891,50861.74
+Food service worker,Martinez,69987.95,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,72980.75
+Food service worker,Menlo Park,40300.0,7,7,0.0,True,True,San Mateo,41860,0.04276164686278891,42023.29
+Food service worker,Mill Valley,44969.6,2,1,0.0,True,True,Marin,41860,0.04276164686278891,46892.57
+Food service worker,Millbrae,40040.0,2,2,0.0,True,True,San Mateo,41860,0.04276164686278891,41752.18
+Food service worker,Milpitas,40248.0,6,4,0.16666666666666666,True,True,Santa Clara,41940,0.044565660947363674,42041.68
+Food service worker,Moraga,35360.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,36872.05
+Food service worker,Morgan Hill,42640.0,3,3,0.0,True,True,Santa Clara,41940,0.044565660947363674,44540.28
+Food service worker,Mountain View,46280.0,2,2,0.0,True,True,Santa Clara,41940,0.044565660947363674,48342.5
+Food service worker,Napa,36192.0,16,12,0.125,False,False,Napa,34900,0.043976475363355604,37783.6
+Food service worker,Newark,35256.0,3,1,0.3333333333333333,True,True,Alameda,41860,0.04276164686278891,36763.6
+Food service worker,Novato,42640.0,4,4,0.0,True,True,Marin,41860,0.04276164686278891,44463.36
+Food service worker,Oakland,42640.0,13,10,0.23076923076923078,False,False,Alameda,41860,0.04276164686278891,44463.36
+Food service worker,Occidental,35360.0,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,37507.19
+Food service worker,Orinda,42640.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Pacifica,44969.6,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,46892.57
+Food service worker,Palo Alto,43680.0,22,17,0.22727272727272727,False,False,Santa Clara,41940,0.044565660947363674,45626.63
+Food service worker,Petaluma,42640.0,3,3,0.0,True,True,Sonoma,42220,0.06072369707549857,45229.26
+Food service worker,Pinole,42640.0,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,Pittsburg,44969.6,1,1,0.0,True,True,Contra Costa,41860,0.04276164686278891,46892.57
+Food service worker,Pleasant Hill,40040.0,2,2,0.0,True,True,Contra Costa,41860,0.04276164686278891,41752.18
+Food service worker,Pleasanton,42640.0,4,3,0.0,True,True,Alameda,41860,0.04276164686278891,44463.36
+Food service worker,Redwood City,44969.6,9,7,0.1111111111111111,True,True,San Mateo,41860,0.04276164686278891,46892.57
+Food service worker,Rohnert Park,35776.0,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,37948.45
+Food service worker,Rutherford,46696.0,4,4,0.0,True,True,Napa,34900,0.043976475363355604,48749.53
+Food service worker,Saint Helena,37440.0,4,4,0.0,True,True,Napa,34900,0.043976475363355604,39086.48
+Food service worker,San Anselmo,42640.0,1,1,0.0,True,True,Marin,41860,0.04276164686278891,44463.36
+Food service worker,San Bruno,36301.2,2,2,0.0,True,True,San Mateo,41860,0.04276164686278891,37853.5
+Food service worker,San Carlos,42640.0,2,1,0.5,True,True,San Mateo,41860,0.04276164686278891,44463.36
+Food service worker,San Francisco,42640.0,61,53,0.11475409836065574,False,False,San Francisco,41860,0.04276164686278891,44463.36
+Food service worker,San Jose,42640.0,40,35,0.075,False,False,Santa Clara,41940,0.044565660947363674,44540.28
+Food service worker,San Leandro,43804.8,5,4,0.2,True,True,Alameda,41860,0.04276164686278891,45677.97
+Food service worker,San Mateo,44969.6,12,9,0.08333333333333333,False,True,San Mateo,41860,0.04276164686278891,46892.57
+Food service worker,San Rafael,41080.0,5,4,0.2,True,True,Marin,41860,0.04276164686278891,42836.65
+Food service worker,San Ramon,43160.0,4,4,0.0,True,True,Contra Costa,41860,0.04276164686278891,45005.59
+Food service worker,Santa Clara,139000.0,15,13,0.13333333333333333,False,False,Santa Clara,41940,0.044565660947363674,145194.63
+Food service worker,Santa Rosa,43804.8,9,8,0.0,True,True,Sonoma,42220,0.06072369707549857,46464.79
+Food service worker,Saratoga,42640.0,1,1,0.0,True,True,Santa Clara,41940,0.044565660947363674,44540.28
+Food service worker,Sausalito,73840.0,1,1,0.0,True,True,Marin,41860,0.04276164686278891,76997.52
+Food service worker,Sonoma,39000.0,9,9,0.0,True,True,Sonoma,42220,0.06072369707549857,41368.22
+Food service worker,South San Francisco,45760.0,3,3,0.0,True,True,San Mateo,41860,0.04276164686278891,47716.77
+Food service worker,Sunnyvale,45884.8,9,8,0.1111111111111111,True,True,Santa Clara,41940,0.044565660947363674,47929.69
+Food service worker,Tiburon,38896.0,2,2,0.0,True,True,Marin,41860,0.04276164686278891,40559.26
+Food service worker,Travis AFB,41880.8,1,1,0.0,True,True,Solano,46700,0.07035013450096993,44827.12
+Food service worker,Union City,44969.6,1,1,0.0,True,True,Alameda,41860,0.04276164686278891,46892.57
+Food service worker,Vacaville,35256.0,5,5,0.0,True,True,Solano,46700,0.07035013450096993,37736.26
+Food service worker,Vallejo,43544.8,2,2,0.0,True,True,Solano,46700,0.07035013450096993,46608.18
+Food service worker,Walnut Creek,42640.0,5,5,0.0,True,True,Contra Costa,41860,0.04276164686278891,44463.36
+Food service worker,West Menlo Park,40300.0,1,1,0.0,True,True,San Mateo,41860,0.04276164686278891,42023.29
+Food service worker,Windsor,35152.0,1,1,0.0,True,True,Sonoma,42220,0.06072369707549857,37286.56
+Food service worker,Yountville,45760.0,6,5,0.0,True,True,Napa,34900,0.043976475363355604,47772.36
+Home health aide,Antioch,52000.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,51208.53
+Home health aide,Campbell,56160.0,2,2,0.0,True,True,Santa Clara,41940,0.059666742049098054,59510.88
+Home health aide,Castro Valley,38365.6,1,1,0.0,True,True,Alameda,41860,-0.015220598018168774,37781.65
+Home health aide,Concord,49920.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,49160.19
+Home health aide,Corte Madera,47840.0,2,1,0.5,True,True,Marin,41860,-0.015220598018168774,47111.85
+Home health aide,Cupertino,67600.0,2,2,0.0,True,True,Santa Clara,41940,0.059666742049098054,71633.47
+Home health aide,El Sobrante,38365.6,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,37781.65
+Home health aide,Martinez,46800.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,46087.68
+Home health aide,Menlo Park,55120.0,1,1,0.0,True,True,San Mateo,41860,-0.015220598018168774,54281.04
+Home health aide,Mill Valley,47840.0,1,1,0.0,True,True,Marin,41860,-0.015220598018168774,47111.85
+Home health aide,Milpitas,50960.0,1,1,0.0,True,True,Santa Clara,41940,0.059666742049098054,54000.62
+Home health aide,Oakland,38833.6,1,1,0.0,True,True,Alameda,41860,-0.015220598018168774,38242.53
+Home health aide,Oakley,38833.6,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,38242.53
+Home health aide,Pleasant Hill,46800.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,46087.68
+Home health aide,Pleasanton,45760.0,3,2,0.3333333333333333,True,True,Alameda,41860,-0.015220598018168774,45063.51
+Home health aide,Redwood City,41808.0,1,1,0.0,True,True,San Mateo,41860,-0.015220598018168774,41171.66
+Home health aide,Richmond,50960.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,50184.36
+Home health aide,San Anselmo,47840.0,1,1,0.0,True,True,Marin,41860,-0.015220598018168774,47111.85
+Home health aide,San Carlos,41808.0,1,1,0.0,True,True,San Mateo,41860,-0.015220598018168774,41171.66
+Home health aide,San Francisco,55640.0,8,6,0.25,True,True,San Francisco,41860,-0.015220598018168774,54793.13
+Home health aide,San Jose,63440.0,5,3,0.4,True,True,Santa Clara,41940,0.059666742049098054,67225.26
+Home health aide,San Leandro,88400.0,2,2,0.0,True,True,Alameda,41860,-0.015220598018168774,87054.5
+Home health aide,San Martin,,1,0,0.0,True,True,Santa Clara,41940,0.059666742049098054,
+Home health aide,San Mateo,55120.0,1,1,0.0,True,True,San Mateo,41860,-0.015220598018168774,54281.04
+Home health aide,San Rafael,44148.0,2,2,0.0,True,True,Marin,41860,-0.015220598018168774,43476.04
+Home health aide,Sausalito,47840.0,1,1,0.0,True,True,Marin,41860,-0.015220598018168774,47111.85
+Home health aide,Sonoma,72500.0,1,1,0.0,True,True,Sonoma,42220,0.0626174327654152,77039.76
+Home health aide,South San Francisco,57887.2,2,2,0.0,True,True,San Mateo,41860,-0.015220598018168774,57006.12
+Home health aide,Sunnyvale,59910.25,2,2,0.0,True,True,Santa Clara,41940,0.059666742049098054,63484.9
+Home health aide,Tiburon,40456.0,1,1,0.0,True,True,Marin,41860,-0.015220598018168774,39840.24
+Home health aide,Vallejo,40560.0,1,1,0.0,True,True,Solano,46700,0.03440023219962921,41955.27
+Home health aide,Walnut Creek,46800.0,1,1,0.0,True,True,Contra Costa,41860,-0.015220598018168774,46087.68
+K–12 teacher,Atherton,139500.0,1,1,0.0,True,True,San Mateo,41860,0.04698514807846606,146054.43
+K–12 teacher,Berkeley,67600.0,1,1,0.0,True,True,Alameda,41860,0.04698514807846606,70776.2
+K–12 teacher,Campbell,109200.0,1,1,0.0,True,True,Santa Clara,41940,0.026709419431311977,112116.67
+K–12 teacher,Dublin,67323.0,2,2,0.0,True,True,Alameda,41860,0.04698514807846606,70486.18
+K–12 teacher,East Palo Alto,,1,0,1.0,True,True,San Mateo,41860,0.04698514807846606,
+K–12 teacher,Emeryville,84190.5,1,1,0.0,True,True,Alameda,41860,0.04698514807846606,88146.2
+K–12 teacher,Fairfield,,1,0,0.0,True,True,Solano,46700,,
+K–12 teacher,Foster City,97500.0,1,1,0.0,True,True,San Mateo,41860,0.04698514807846606,102081.05
+K–12 teacher,Fremont,60000.0,1,1,0.0,True,True,Alameda,41860,0.04698514807846606,62819.11
+K–12 teacher,Gilroy,96552.5,1,1,0.0,True,True,Santa Clara,41940,0.026709419431311977,99131.36
+K–12 teacher,Lafayette,,1,0,1.0,True,True,Contra Costa,41860,0.04698514807846606,
+K–12 teacher,Morgan Hill,80872.5,1,1,0.0,True,True,Santa Clara,41940,0.026709419431311977,83032.56
+K–12 teacher,Oakland,80750.0,4,4,0.0,True,True,Alameda,41860,0.04698514807846606,84544.05
+K–12 teacher,Palo Alto,93500.0,1,1,0.0,True,True,Santa Clara,41940,0.026709419431311977,95997.33
+K–12 teacher,Redwood City,79715.5,1,1,0.0,True,True,San Mateo,41860,0.04698514807846606,83460.94
+K–12 teacher,Richmond,80750.0,8,7,0.0,True,True,Contra Costa,41860,0.04698514807846606,84544.05
+K–12 teacher,San Francisco,96249.0,8,7,0.0,True,True,San Francisco,41860,0.04698514807846606,100771.27
+K–12 teacher,San Jose,75000.0,5,5,0.0,True,True,Santa Clara,41940,0.026709419431311977,77003.21
+K–12 teacher,Santa Clara,67500.0,1,1,0.0,True,True,Santa Clara,41940,0.026709419431311977,69302.89
+K–12 teacher,South San Francisco,,1,0,0.0,True,True,San Mateo,41860,0.04698514807846606,
+K–12 teacher,Vallejo,,4,0,0.75,True,True,Solano,46700,,
+Medical assistant,Albany,,1,0,0.0,True,True,Alameda,41860,0.02366331097107884,
+Medical assistant,Angwin,57668.0,1,1,0.0,True,True,Napa,34900,0.06761153489206026,61567.02
+Medical assistant,Antioch,61204.0,2,1,0.5,True,True,Contra Costa,41860,0.02366331097107884,62652.29
+Medical assistant,Benicia,,1,0,0.0,True,True,Solano,46700,0.08838540343241148,
+Medical assistant,Berkeley,47840.0,4,3,0.25,True,True,Alameda,41860,0.02366331097107884,48972.05
+Medical assistant,Brentwood,65130.0,2,2,0.0,True,True,Contra Costa,41860,0.02366331097107884,66671.19
+Medical assistant,Clayton,47829.6,1,1,0.0,True,True,Contra Costa,41860,0.02366331097107884,48961.41
+Medical assistant,Coast Guard Island,,1,0,1.0,True,True,Alameda,41860,0.02366331097107884,
+Medical assistant,Concord,49920.0,2,2,0.0,True,True,Contra Costa,41860,0.02366331097107884,51101.27
+Medical assistant,Corte Madera,49920.0,1,1,0.0,True,True,Marin,41860,0.02366331097107884,51101.27
+Medical assistant,Fairfield,60616.4,2,2,0.0,True,True,Solano,46700,0.08838540343241148,65974.0
+Medical assistant,Fremont,52000.0,1,1,0.0,True,True,Alameda,41860,0.02366331097107884,53230.49
+Medical assistant,Gilroy,58240.0,1,1,0.0,True,True,Santa Clara,41940,0.03100295528342495,60045.61
+Medical assistant,Greenbrae,60018.4,3,2,0.0,True,True,Marin,41860,0.02366331097107884,61438.63
+Medical assistant,Guerneville,,1,0,0.0,True,True,Sonoma,42220,0.07784776364171164,
+Medical assistant,Hayward,66560.0,1,1,0.0,True,True,Alameda,41860,0.02366331097107884,68135.03
+Medical assistant,Los Altos,49920.0,1,1,0.0,True,True,Santa Clara,41940,0.03100295528342495,51467.67
+Medical assistant,Los Gatos,53190.8,4,4,0.0,True,True,Santa Clara,41940,0.03100295528342495,54839.87
+Medical assistant,Martinez,64294.32,1,1,0.0,True,True,Contra Costa,41860,0.02366331097107884,65815.74
+Medical assistant,Menlo Park,66934.4,2,1,0.0,True,True,San Mateo,41860,0.02366331097107884,68518.29
+Medical assistant,Morgan Hill,63336.0,1,1,0.0,True,True,Santa Clara,41940,0.03100295528342495,65299.6
+Medical assistant,Mountain View,63065.6,4,4,0.0,True,True,Santa Clara,41940,0.03100295528342495,65020.82
+Medical assistant,Napa,71593.6,3,3,0.0,True,True,Napa,34900,0.06761153489206026,76434.15
+Medical assistant,Newark,61276.8,1,1,0.0,True,True,Alameda,41860,0.02366331097107884,62726.81
+Medical assistant,Novato,,1,0,0.0,True,True,Marin,41860,0.02366331097107884,
+Medical assistant,Oakland,61890.4,9,9,0.0,True,True,Alameda,41860,0.02366331097107884,63354.93
+Medical assistant,Occidental,,1,0,0.0,True,True,Sonoma,42220,0.07784776364171164,
+Medical assistant,Palo Alto,58240.0,3,2,0.0,True,True,Santa Clara,41940,0.03100295528342495,60045.61
+Medical assistant,Pleasanton,58427.2,2,2,0.0,True,True,Alameda,41860,0.02366331097107884,59809.78
+Medical assistant,Redwood City,,1,0,1.0,True,True,San Mateo,41860,0.02366331097107884,
+Medical assistant,Richmond,48880.0,1,1,0.0,True,True,Contra Costa,41860,0.02366331097107884,50036.66
+Medical assistant,Saint Helena,57444.4,2,2,0.0,True,True,Napa,34900,0.06761153489206026,61328.3
+Medical assistant,San Francisco,63440.0,17,11,0.35294117647058826,False,False,San Francisco,41860,0.02366331097107884,64941.2
+Medical assistant,San Jose,55120.0,17,13,0.17647058823529413,False,False,Santa Clara,41940,0.03100295528342495,56828.88
+Medical assistant,San Mateo,60049.6,8,7,0.0,True,True,San Mateo,41860,0.02366331097107884,61470.57
+Medical assistant,San Rafael,61360.0,3,3,0.0,True,True,Marin,41860,0.02366331097107884,62811.98
+Medical assistant,Santa Clara,48880.0,2,1,0.5,True,True,Santa Clara,41940,0.03100295528342495,50395.42
+Medical assistant,Santa Rosa,55879.2,3,3,0.0,True,True,Sonoma,42220,0.07784776364171164,60229.27
+Medical assistant,Sebastopol,,2,0,0.0,True,True,Sonoma,42220,0.07784776364171164,
+Medical assistant,Sonoma,63419.2,1,1,0.0,True,True,Sonoma,42220,0.07784776364171164,68356.24
+Medical assistant,Sunnyvale,48880.0,1,1,0.0,True,True,Santa Clara,41940,0.03100295528342495,50395.42
+Medical assistant,Vallejo,49920.0,1,1,0.0,True,True,Solano,46700,0.08838540343241148,54332.2
+Medical assistant,Walnut Creek,56160.0,2,2,0.0,True,True,Contra Costa,41860,0.02366331097107884,57488.93
+Registered nurse,Alameda,145000.0,1,1,0.0,True,True,Alameda,41860,0.04539667375792741,151582.52
+Registered nurse,Atherton,130000.0,1,1,0.0,True,True,San Mateo,41860,0.04539667375792741,135901.57
+Registered nurse,Berkeley,,1,0,0.0,True,True,Alameda,41860,0.04539667375792741,
+Registered nurse,Brentwood,115000.0,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,120220.62
+Registered nurse,Burlingame,161200.0,2,1,0.5,True,True,San Mateo,41860,0.04539667375792741,168517.94
+Registered nurse,Calistoga,145000.0,1,1,0.0,True,True,Napa,34900,0.13028942089980522,163891.97
+Registered nurse,Campbell,145200.0,3,3,0.0,True,True,Santa Clara,41940,0.08057050539960287,156898.84
+Registered nurse,Castro Valley,102960.0,1,1,0.0,True,True,Alameda,41860,0.04539667375792741,107634.04
+Registered nurse,Concord,153400.0,3,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,160363.85
+Registered nurse,Corte Madera,135200.0,1,1,0.0,True,True,Marin,41860,0.04539667375792741,141337.63
+Registered nurse,Cupertino,93600.0,1,1,0.0,True,True,Santa Clara,41940,0.08057050539960287,101141.4
+Registered nurse,Danville,107120.0,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,111982.89
+Registered nurse,Emeryville,945100.0,1,1,0.0,True,True,Alameda,41860,0.04539667375792741,988004.4
+Registered nurse,Fairfield,136907.2,8,6,0.125,True,True,Solano,46700,0.08639601473796159,148735.44
+Registered nurse,Fremont,123588.4,4,4,0.0,True,True,Alameda,41860,0.04539667375792741,129198.9
+Registered nurse,Greenbrae,204235.2,8,8,0.0,True,True,Marin,41860,0.04539667375792741,213506.8
+Registered nurse,Hayward,144560.0,2,2,0.0,True,True,Alameda,41860,0.04539667375792741,151122.54
+Registered nurse,Larkspur,163217.6,1,1,0.0,True,True,Marin,41860,0.04539667375792741,170627.14
+Registered nurse,Livermore,145280.0,2,2,0.0,True,True,Alameda,41860,0.04539667375792741,151875.23
+Registered nurse,Los Gatos,176800.0,1,1,0.0,True,True,Santa Clara,41940,0.08057050539960287,191044.87
+Registered nurse,Marin City,145000.0,1,1,0.0,True,True,Marin,41860,0.04539667375792741,151582.52
+Registered nurse,Martinez,175182.48,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,183135.18
+Registered nurse,Milpitas,136040.0,2,2,0.0,True,True,Santa Clara,41940,0.08057050539960287,147000.81
+Registered nurse,Napa,179098.4,8,7,0.125,True,True,Napa,34900,0.13028942089980522,202433.03
+Registered nurse,North Richmond,107500.0,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,112380.14
+Registered nurse,Novato,163217.6,2,2,0.0,True,True,Marin,41860,0.04539667375792741,170627.14
+Registered nurse,Oakland,123240.0,19,16,0.10526315789473684,False,False,Alameda,41860,0.04539667375792741,128834.69
+Registered nurse,Occidental,93600.0,1,1,0.0,True,True,Sonoma,42220,0.03500015026690976,96876.01
+Registered nurse,Palo Alto,157878.5,10,10,0.0,False,False,Santa Clara,41940,0.08057050539960287,170598.85
+Registered nurse,Petaluma,153348.0,1,1,0.0,True,True,Sonoma,42220,0.03500015026690976,158715.2
+Registered nurse,Pittsburg,100880.0,2,1,0.5,True,True,Contra Costa,41860,0.04539667375792741,105459.62
+Registered nurse,Pleasant Hill,115700.0,2,2,0.0,True,True,Contra Costa,41860,0.04539667375792741,120952.4
+Registered nurse,Pleasanton,169343.2,4,3,0.25,True,True,Alameda,41860,0.04539667375792741,177030.82
+Registered nurse,Redwood City,174590.0,4,3,0.25,True,True,San Mateo,41860,0.04539667375792741,182515.81
+Registered nurse,Richmond,187200.0,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,195698.26
+Registered nurse,Saint Helena,136240.0,8,7,0.0,True,True,Napa,34900,0.13028942089980522,153990.63
+Registered nurse,San Francisco,145600.0,33,27,0.18181818181818182,False,False,San Francisco,41860,0.04539667375792741,152209.76
+Registered nurse,San Jose,124649.2,29,26,0.10344827586206896,False,False,Santa Clara,41940,0.08057050539960287,134692.25
+Registered nurse,San Leandro,63908.0,2,1,0.5,True,True,Alameda,41860,0.04539667375792741,66809.21
+Registered nurse,San Mateo,118750.0,6,3,0.5,True,True,San Mateo,41860,0.04539667375792741,124140.86
+Registered nurse,San Pablo,121680.0,1,1,0.0,True,True,Contra Costa,41860,0.04539667375792741,127203.87
+Registered nurse,San Rafael,153400.0,1,1,0.0,True,True,Marin,41860,0.04539667375792741,160363.85
+Registered nurse,San Ramon,130520.0,7,6,0.14285714285714285,True,True,Contra Costa,41860,0.04539667375792741,136445.17
+Registered nurse,Santa Clara,161449.6,9,8,0.0,True,True,Santa Clara,41940,0.08057050539960287,174457.68
+Registered nurse,Santa Rosa,183050.4,22,19,0.045454545454545456,False,False,Sonoma,42220,0.03500015026690976,189457.19
+Registered nurse,Saratoga,99840.0,1,1,0.0,True,True,Santa Clara,41940,0.08057050539960287,107884.16
+Registered nurse,Sebastopol,,2,0,0.0,True,True,Sonoma,42220,0.03500015026690976,
+Registered nurse,Sonoma,145000.0,5,3,0.4,True,True,Sonoma,42220,0.03500015026690976,150075.02
+Registered nurse,South San Francisco,129194.0,2,2,0.0,True,True,San Mateo,41860,0.04539667375792741,135058.98
+Registered nurse,Stanford,141388.0,2,2,0.0,True,True,Santa Clara,41940,0.08057050539960287,152779.7
+Registered nurse,Sunnyvale,109200.0,1,1,0.0,True,True,Santa Clara,41940,0.08057050539960287,117998.3
+Registered nurse,Union City,124800.0,3,3,0.0,True,True,Alameda,41860,0.04539667375792741,130465.5
+Registered nurse,Vallejo,120172.0,3,3,0.0,True,True,Solano,46700,0.08639601473796159,130554.38
+Registered nurse,Walnut Creek,184542.8,8,4,0.5,True,True,Contra Costa,41860,0.04539667375792741,192920.43
+Registered nurse,Windsor,,1,0,1.0,True,True,Sonoma,42220,0.03500015026690976,
+Registered nurse,Yountville,145000.0,1,1,0.0,True,True,Napa,34900,0.13028942089980522,163891.97
+Retail sales,Alameda,40040.0,3,3,0.0,True,True,Alameda,41860,0.04771626699064302,41950.56
+Retail sales,Alamo,34840.0,1,1,0.0,True,True,Contra Costa,41860,0.04771626699064302,36502.43
+Retail sales,Albany,35152.0,2,2,0.0,True,True,Alameda,41860,0.04771626699064302,36829.32
+Retail sales,Antioch,35880.0,10,9,0.0,False,True,Contra Costa,41860,0.04771626699064302,37592.06
+Retail sales,Berkeley,45853.6,4,4,0.0,True,True,Alameda,41860,0.04771626699064302,48041.56
+Retail sales,Brentwood,35542.0,15,12,0.13333333333333333,False,False,Contra Costa,41860,0.04771626699064302,37237.93
+Retail sales,Burlingame,40560.0,5,3,0.4,True,True,San Mateo,41860,0.04771626699064302,42495.37
+Retail sales,Campbell,39520.0,5,5,0.0,True,True,Santa Clara,41940,0.04892305949326908,41453.44
+Retail sales,Castro Valley,37232.0,1,1,0.0,True,True,Alameda,41860,0.04771626699064302,39008.57
+Retail sales,Cloverdale,35256.0,1,1,0.0,True,True,Sonoma,42220,0.035549480106323715,36509.33
+Retail sales,Colma,35256.0,4,4,0.0,True,True,San Mateo,41860,0.04771626699064302,36938.28
+Retail sales,Concord,35958.0,20,18,0.05,False,False,Contra Costa,41860,0.04771626699064302,37673.78
+Retail sales,Corte Madera,38480.0,3,3,0.0,True,True,Marin,41860,0.04771626699064302,40316.12
+Retail sales,Cupertino,39156.0,5,5,0.0,True,True,Santa Clara,41940,0.04892305949326908,41071.63
+Retail sales,Daly City,39520.0,16,15,0.0625,False,False,San Mateo,41860,0.04771626699064302,41405.75
+Retail sales,Danville,38168.0,4,4,0.0,True,True,Contra Costa,41860,0.04771626699064302,39989.23
+Retail sales,Dixon,35880.0,1,1,0.0,True,True,Solano,46700,0.06477532490224565,38204.14
+Retail sales,Dublin,42250.0,6,6,0.0,True,True,Alameda,41860,0.04771626699064302,44266.01
+Retail sales,El Cerrito,39249.6,2,2,0.0,True,True,Contra Costa,41860,0.04771626699064302,41122.44
+Retail sales,Emeryville,42307.2,8,7,0.125,True,True,Alameda,41860,0.04771626699064302,44325.94
+Retail sales,Fairfield,37492.0,9,8,0.1111111111111111,True,True,Solano,46700,0.06477532490224565,39920.56
+Retail sales,Foster City,38428.0,2,2,0.0,True,True,San Mateo,41860,0.04771626699064302,40261.64
+Retail sales,Fremont,39624.0,11,9,0.18181818181818182,False,True,Alameda,41860,0.04771626699064302,41514.71
+Retail sales,Gilroy,41730.0,15,14,0.06666666666666667,False,False,Santa Clara,41940,0.04892305949326908,43771.56
+Retail sales,Greenbrae,37440.0,2,1,0.5,True,True,Marin,41860,0.04771626699064302,39226.5
+Retail sales,Half Moon Bay,39520.0,1,1,0.0,True,True,San Mateo,41860,0.04771626699064302,41405.75
+Retail sales,Hayward,43420.0,9,8,0.1111111111111111,True,True,Alameda,41860,0.04771626699064302,45491.84
+Retail sales,Lafayette,37377.6,3,3,0.0,True,True,Contra Costa,41860,0.04771626699064302,39161.12
+Retail sales,Livermore,38480.0,21,17,0.19047619047619047,False,False,Alameda,41860,0.04771626699064302,40316.12
+Retail sales,Los Altos,41314.0,2,2,0.0,True,True,Santa Clara,41940,0.04892305949326908,43335.21
+Retail sales,Los Gatos,37856.0,5,5,0.0,True,True,Santa Clara,41940,0.04892305949326908,39708.03
+Retail sales,Menlo Park,36504.0,1,1,0.0,True,True,San Mateo,41860,0.04771626699064302,38245.83
+Retail sales,Mill Valley,44200.0,2,2,0.0,True,True,Marin,41860,0.04771626699064302,46309.06
+Retail sales,Milpitas,44122.0,10,8,0.1,False,True,Santa Clara,41940,0.04892305949326908,46280.58
+Retail sales,Morgan Hill,41256.8,3,2,0.0,True,True,Santa Clara,41940,0.04892305949326908,43275.21
+Retail sales,Mountain View,49582.0,4,4,0.0,True,True,Santa Clara,41940,0.04892305949326908,52007.7
+Retail sales,Napa,38428.0,13,12,0.07692307692307693,False,False,Napa,34900,0.0446550530408793,40144.0
+Retail sales,Newark,35672.0,1,1,0.0,True,True,Alameda,41860,0.04771626699064302,37374.13
+Retail sales,Novato,37960.0,4,3,0.0,True,True,Marin,41860,0.04771626699064302,39771.31
+Retail sales,Oakland,44688.8,12,10,0.16666666666666666,False,False,Alameda,41860,0.04771626699064302,46821.18
+Retail sales,Orinda,35152.0,1,1,0.0,True,True,Contra Costa,41860,0.04771626699064302,36829.32
+Retail sales,Pacifica,37466.0,2,2,0.0,True,True,San Mateo,41860,0.04771626699064302,39253.74
+Retail sales,Palo Alto,45760.0,10,9,0.1,False,True,Santa Clara,41940,0.04892305949326908,47998.72
+Retail sales,Petaluma,41808.0,11,10,0.0,False,False,Sonoma,42220,0.035549480106323715,43294.25
+Retail sales,Pinole,41886.0,3,2,0.3333333333333333,True,True,Contra Costa,41860,0.04771626699064302,43884.64
+Retail sales,Pittsburg,38480.0,3,3,0.0,True,True,Contra Costa,41860,0.04771626699064302,40316.12
+Retail sales,Pleasant Hill,38480.0,8,7,0.125,True,True,Contra Costa,41860,0.04771626699064302,40316.12
+Retail sales,Pleasanton,38480.0,10,9,0.0,False,True,Alameda,41860,0.04771626699064302,40316.12
+Retail sales,Redwood City,41392.0,4,3,0.25,True,True,San Mateo,41860,0.04771626699064302,43367.07
+Retail sales,Rodeo,38480.0,1,1,0.0,True,True,Contra Costa,41860,0.04771626699064302,40316.12
+Retail sales,Rohnert Park,35282.0,3,2,0.0,True,True,Sonoma,42220,0.035549480106323715,36536.26
+Retail sales,San Bruno,42598.4,2,2,0.0,True,True,San Mateo,41860,0.04771626699064302,44631.04
+Retail sales,San Carlos,43409.6,4,4,0.0,True,True,San Mateo,41860,0.04771626699064302,45480.94
+Retail sales,San Francisco,44928.0,45,37,0.08888888888888889,False,False,San Francisco,41860,0.04771626699064302,47071.8
+Retail sales,San Jose,43160.0,49,44,0.061224489795918366,False,False,Santa Clara,41940,0.04892305949326908,45271.52
+Retail sales,San Leandro,39520.0,7,7,0.0,True,True,Alameda,41860,0.04771626699064302,41405.75
+Retail sales,San Lorenzo,35776.0,1,1,0.0,True,True,Alameda,41860,0.04771626699064302,37483.1
+Retail sales,San Martin,38480.0,1,1,0.0,True,True,Santa Clara,41940,0.04892305949326908,40362.56
+Retail sales,San Mateo,40981.2,24,20,0.125,False,False,San Mateo,41860,0.04771626699064302,42936.67
+Retail sales,San Rafael,37440.0,9,7,0.2222222222222222,True,True,Marin,41860,0.04771626699064302,39226.5
+Retail sales,San Ramon,35880.0,5,4,0.2,True,True,Contra Costa,41860,0.04771626699064302,37592.06
+Retail sales,Santa Clara,43186.0,26,24,0.038461538461538464,False,False,Santa Clara,41940,0.04892305949326908,45298.79
+Retail sales,Santa Rosa,41080.0,25,22,0.12,False,False,Sonoma,42220,0.035549480106323715,42540.37
+Retail sales,Sonoma,48672.0,4,4,0.0,True,True,Sonoma,42220,0.035549480106323715,50402.26
+Retail sales,South San Francisco,39884.0,2,1,0.0,True,True,San Mateo,41860,0.04771626699064302,41787.12
+Retail sales,Stanford,40560.0,1,1,0.0,True,True,Santa Clara,41940,0.04892305949326908,42544.32
+Retail sales,Suisun City,48880.0,1,1,0.0,True,True,Solano,46700,0.06477532490224565,52046.22
+Retail sales,Sunnyvale,42120.0,8,8,0.0,True,True,Santa Clara,41940,0.04892305949326908,44180.64
+Retail sales,Union City,51498.8,2,2,0.0,True,True,Alameda,41860,0.04771626699064302,53956.13
+Retail sales,Vacaville,39520.0,17,15,0.11764705882352941,False,False,Solano,46700,0.06477532490224565,42079.92
+Retail sales,Vallejo,39520.0,3,3,0.0,True,True,Solano,46700,0.06477532490224565,42079.92
+Retail sales,Walnut Creek,39520.0,10,9,0.1,False,True,Contra Costa,41860,0.04771626699064302,41405.75
+Software engineer,Alameda,176750.0,12,12,0.0,False,False,Alameda,41860,0.04346472562389514,184432.39
+Software engineer,Antioch,156000.0,1,1,0.0,True,True,Contra Costa,41860,0.04346472562389514,162780.5
+Software engineer,Belmont,,2,0,1.0,True,True,San Mateo,41860,0.04346472562389514,
+Software engineer,Benicia,128250.0,1,1,0.0,True,True,Solano,46700,0.04940244247391479,134585.86
+Software engineer,Berkeley,167500.0,19,16,0.15789473684210525,False,False,Alameda,41860,0.04346472562389514,174780.34
+Software engineer,Brisbane,187312.5,4,4,0.0,True,True,San Mateo,41860,0.04346472562389514,195453.99
+Software engineer,Burlingame,220498.5,14,11,0.21428571428571427,False,False,San Mateo,41860,0.04346472562389514,230082.41
+Software engineer,Campbell,195000.0,8,5,0.375,True,True,Santa Clara,41940,0.0676218584436335,208186.26
+Software engineer,Concord,149000.0,2,2,0.0,True,True,Contra Costa,41860,0.04346472562389514,155476.24
+Software engineer,Cupertino,214000.0,97,94,0.030927835051546393,False,False,Santa Clara,41940,0.0676218584436335,228471.08
+Software engineer,Daly City,125348.4,6,4,0.3333333333333333,True,True,San Mateo,41860,0.04346472562389514,130796.63
+Software engineer,Danville,156000.0,1,1,0.0,True,True,Contra Costa,41860,0.04346472562389514,162780.5
+Software engineer,Dublin,139862.0,5,4,0.2,True,True,Alameda,41860,0.04346472562389514,145941.06
+Software engineer,East Palo Alto,186950.0,2,2,0.0,True,True,San Mateo,41860,0.04346472562389514,195075.73
+Software engineer,Emeryville,176250.0,3,2,0.3333333333333333,True,True,Alameda,41860,0.04346472562389514,183910.66
+Software engineer,Foster City,226000.0,58,55,0.05172413793103448,False,False,San Mateo,41860,0.04346472562389514,235823.03
+Software engineer,Fremont,196000.0,68,48,0.29411764705882354,False,False,Alameda,41860,0.04346472562389514,204519.09
+Software engineer,Hayward,170818.5,3,2,0.3333333333333333,True,True,Alameda,41860,0.04346472562389514,178243.08
+Software engineer,Healdsburg,100000.0,1,1,0.0,True,True,Sonoma,42220,0.06987664365827762,106987.66
+Software engineer,Hercules,213000.0,1,1,0.0,True,True,Contra Costa,41860,0.04346472562389514,222257.99
+Software engineer,Livermore,176843.5,8,6,0.25,True,True,Alameda,41860,0.04346472562389514,184529.95
+Software engineer,Los Altos,219375.0,5,1,0.8,True,True,Santa Clara,41940,0.0676218584436335,234209.55
+Software engineer,Los Gatos,473000.0,16,14,0.125,False,False,Santa Clara,41940,0.0676218584436335,504985.14
+Software engineer,Menlo Park,210625.0,94,82,0.11702127659574468,False,False,San Mateo,41860,0.04346472562389514,219779.76
+Software engineer,Milpitas,184000.0,36,33,0.08333333333333333,False,False,Santa Clara,41940,0.0676218584436335,196442.42
+Software engineer,Moffett Field,,1,0,1.0,True,True,Santa Clara,41940,0.0676218584436335,
+Software engineer,Mountain View,213500.0,361,343,0.04709141274238227,False,False,Santa Clara,41940,0.0676218584436335,227937.27
+Software engineer,Newark,159970.0,2,1,0.5,True,True,Alameda,41860,0.04346472562389514,166923.05
+Software engineer,Oakland,180000.0,28,24,0.10714285714285714,False,False,Alameda,41860,0.04346472562389514,187823.65
+Software engineer,Palo Alto,196000.0,207,169,0.18357487922705315,False,False,Santa Clara,41940,0.0676218584436335,209253.88
+Software engineer,Pleasanton,179980.0,18,12,0.3333333333333333,False,False,Alameda,41860,0.04346472562389514,187802.78
+Software engineer,Redwood City,174500.0,47,40,0.14893617021276595,False,False,San Mateo,41860,0.04346472562389514,182084.59
+Software engineer,Richmond,182000.0,1,1,0.0,True,True,Contra Costa,41860,0.04346472562389514,189910.58
+Software engineer,Rohnert Park,,1,0,1.0,True,True,Sonoma,42220,0.06987664365827762,
+Software engineer,San Bruno,213250.0,22,20,0.09090909090909091,False,False,San Mateo,41860,0.04346472562389514,222518.85
+Software engineer,San Carlos,222500.0,30,25,0.13333333333333333,False,False,San Mateo,41860,0.04346472562389514,232170.9
+Software engineer,San Francisco,216000.0,970,831,0.13917525773195877,False,False,San Francisco,41860,0.04346472562389514,225388.38
+Software engineer,San Jose,208125.0,437,376,0.13729977116704806,False,False,Santa Clara,41940,0.0676218584436335,222198.8
+Software engineer,San Leandro,176750.0,4,4,0.0,True,True,Alameda,41860,0.04346472562389514,184432.39
+Software engineer,San Mateo,220020.0,124,108,0.12903225806451613,False,False,San Mateo,41860,0.04346472562389514,229583.11
+Software engineer,San Rafael,153317.0,3,1,0.6666666666666666,True,True,Marin,41860,0.04346472562389514,159980.88
+Software engineer,San Ramon,128500.0,11,9,0.18181818181818182,False,True,Contra Costa,41860,0.04346472562389514,134085.22
+Software engineer,Santa Clara,219750.0,293,262,0.10580204778156997,False,False,Santa Clara,41940,0.0676218584436335,234609.9
+Software engineer,Santa Rosa,160790.0,2,1,0.5,True,True,Sonoma,42220,0.06987664365827762,172025.47
+Software engineer,Saratoga,155000.0,7,7,0.0,True,True,Santa Clara,41940,0.0676218584436335,165481.39
+Software engineer,South San Francisco,180500.0,5,2,0.6,True,True,San Mateo,41860,0.04346472562389514,188345.38
+Software engineer,Stanford,120511.5,3,1,0.6666666666666666,True,True,Santa Clara,41940,0.0676218584436335,128660.71
+Software engineer,Sunnyvale,213000.0,388,356,0.07731958762886598,False,False,Santa Clara,41940,0.0676218584436335,227403.46
+Software engineer,Tiburon,79000.0,1,1,0.0,True,True,Marin,41860,0.04346472562389514,82433.71
+Software engineer,Walnut Creek,156000.0,6,4,0.3333333333333333,True,True,Contra Costa,41860,0.04346472562389514,162780.5
+Warehouse worker,Alameda,36940.8,3,3,0.0,True,True,Alameda,41860,0.03654722129405249,38290.88
+Warehouse worker,Alviso,58240.0,1,1,0.0,True,True,Santa Clara,41940,0.03297094152404545,60160.23
+Warehouse worker,American Canyon,,1,0,1.0,True,True,Napa,34900,0.047433788534526844,
+Warehouse worker,Antioch,40627.6,2,2,0.0,True,True,Contra Costa,41860,0.03654722129405249,42112.43
+Warehouse worker,Benicia,50440.0,2,2,0.0,True,True,Solano,46700,0.055075417074986234,53218.0
+Warehouse worker,Berkeley,57200.0,3,2,0.0,True,True,Alameda,41860,0.03654722129405249,59290.5
+Warehouse worker,Brisbane,44720.0,9,8,0.1111111111111111,True,True,San Mateo,41860,0.03654722129405249,46354.39
+Warehouse worker,Burlingame,46384.0,3,3,0.0,True,True,San Mateo,41860,0.03654722129405249,48079.21
+Warehouse worker,Concord,45240.0,3,2,0.0,True,True,Contra Costa,41860,0.03654722129405249,46893.4
+Warehouse worker,Cotati,,1,0,0.0,True,True,Sonoma,42220,0.0390083831243776,
+Warehouse worker,Dixon,37440.0,1,1,0.0,True,True,Solano,46700,0.055075417074986234,39502.02
+Warehouse worker,Dublin,44928.0,2,2,0.0,True,True,Alameda,41860,0.03654722129405249,46569.99
+Warehouse worker,East Palo Alto,60226.4,1,1,0.0,True,True,San Mateo,41860,0.03654722129405249,62427.51
+Warehouse worker,Emeryville,44033.6,1,1,0.0,True,True,Alameda,41860,0.03654722129405249,45642.91
+Warehouse worker,Fairfield,42380.0,6,6,0.0,True,True,Solano,46700,0.055075417074986234,44714.1
+Warehouse worker,Fremont,45760.0,11,11,0.0,False,False,Alameda,41860,0.03654722129405249,47432.4
+Warehouse worker,Gilroy,,1,0,1.0,True,True,Santa Clara,41940,0.03297094152404545,
+Warehouse worker,Hayward,45760.0,21,19,0.047619047619047616,False,False,Alameda,41860,0.03654722129405249,47432.4
+Warehouse worker,Livermore,42640.0,11,9,0.18181818181818182,False,True,Alameda,41860,0.03654722129405249,44198.37
+Warehouse worker,Milpitas,48427.6,4,4,0.0,True,True,Santa Clara,41940,0.03297094152404545,50024.3
+Warehouse worker,Mountain View,63284.0,2,2,0.0,True,True,Santa Clara,41940,0.03297094152404545,65370.53
+Warehouse worker,Newark,44720.0,3,3,0.0,True,True,Alameda,41860,0.03654722129405249,46354.39
+Warehouse worker,Oakland,44980.0,10,8,0.0,False,True,Alameda,41860,0.03654722129405249,46623.89
+Warehouse worker,Oakley,48360.0,1,1,0.0,True,True,Contra Costa,41860,0.03654722129405249,50127.42
+Warehouse worker,Palo Alto,54080.0,2,1,0.0,True,True,Santa Clara,41940,0.03297094152404545,55863.07
+Warehouse worker,Penngrove,43680.0,1,1,0.0,True,True,Sonoma,42220,0.0390083831243776,45383.89
+Warehouse worker,Petaluma,43160.0,6,3,0.0,True,True,Sonoma,42220,0.0390083831243776,44843.6
+Warehouse worker,Pleasanton,45156.8,1,1,0.0,True,True,Alameda,41860,0.03654722129405249,46807.16
+Warehouse worker,Redwood City,59385.5,2,2,0.0,True,True,San Mateo,41860,0.03654722129405249,61555.88
+Warehouse worker,Richmond,48880.0,4,4,0.0,True,True,Contra Costa,41860,0.03654722129405249,50666.43
+Warehouse worker,San Bruno,55120.0,2,1,0.5,True,True,San Mateo,41860,0.03654722129405249,57134.48
+Warehouse worker,San Carlos,59280.0,1,1,0.0,True,True,San Mateo,41860,0.03654722129405249,61446.52
+Warehouse worker,San Francisco,49088.0,15,10,0.2,False,False,San Francisco,41860,0.03654722129405249,50882.03
+Warehouse worker,San Jose,50596.0,28,24,0.03571428571428571,False,False,Santa Clara,41940,0.03297094152404545,52264.2
+Warehouse worker,San Leandro,46384.0,9,9,0.0,True,True,Alameda,41860,0.03654722129405249,48079.21
+Warehouse worker,San Pablo,40976.0,1,1,0.0,True,True,Contra Costa,41860,0.03654722129405249,42473.56
+Warehouse worker,San Rafael,44720.0,2,2,0.0,True,True,Marin,41860,0.03654722129405249,46354.39
+Warehouse worker,Santa Clara,49920.0,14,11,0.07142857142857142,False,False,Santa Clara,41940,0.03297094152404545,51565.91
+Warehouse worker,Santa Rosa,43789.2,4,4,0.0,True,True,Sonoma,42220,0.0390083831243776,45497.35
+Warehouse worker,Saratoga,95000.0,1,1,0.0,True,True,Santa Clara,41940,0.03297094152404545,98132.24
+Warehouse worker,Sebastopol,,1,0,0.0,True,True,Sonoma,42220,0.0390083831243776,
+Warehouse worker,Sonoma,53040.0,1,1,0.0,True,True,Sonoma,42220,0.0390083831243776,55109.0
+Warehouse worker,South San Francisco,46540.0,8,8,0.0,True,True,San Mateo,41860,0.03654722129405249,48240.91
+Warehouse worker,Suisun City,,1,0,1.0,True,True,Solano,46700,0.055075417074986234,
+Warehouse worker,Sunnyvale,48880.0,2,1,0.5,True,True,Santa Clara,41940,0.03297094152404545,50491.62
+Warehouse worker,Union City,53040.0,7,6,0.14285714285714285,True,True,Alameda,41860,0.03654722129405249,54978.46
+Warehouse worker,Vacaville,42120.0,4,3,0.25,True,True,Solano,46700,0.055075417074986234,44439.78
+Warehouse worker,Walnut Creek,75488.0,2,2,0.0,True,True,Contra Costa,41860,0.03654722129405249,78246.88
